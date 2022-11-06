@@ -34,7 +34,8 @@ export default {
   padding: 15px 20px;
 }
 .title-text {
-  max-width: 360px;
+  max-width: 320px;
+  margin-right: 10px;
 }
 .title {
   font-size: 20px;
