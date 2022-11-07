@@ -4,6 +4,7 @@
     <about-me-comp />
     <tools-and-technologies />
     <projects-comp/>
+    <contact-comp/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderComp from "../components/HeaderComp.vue";
 import AboutMeComp from "../components/AboutMeComp.vue";
 import ToolsAndTechnologies from "../components/ToolsAndTechnologies.vue";
 import ProjectsComp from '@/components/ProjectsComp.vue';
+import ContactComp from "@/components/ContactComp.vue"
 
 export default {
   name: "HomeView",
@@ -20,6 +22,7 @@ export default {
     AboutMeComp,
     ToolsAndTechnologies,
     ProjectsComp,
+    ContactComp
   },
   data() {
     return {};

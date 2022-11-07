@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProjetosView from '../views/ProjetosView'
 import CertificadosView from '../views/CertificadosView'
+import EmailConfirmView from '../views/EmailConfirmView'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/certificados',
     name: 'certificados',
     component: CertificadosView
+  },
+  {
+    path: '/emailenviado',
+    name: 'emailenviado',
+    component: EmailConfirmView
   },
 ]
 
