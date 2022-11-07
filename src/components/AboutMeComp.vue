@@ -5,21 +5,35 @@
       <div class="line"></div>
       <h1 class="title">Sobre Mim</h1>
       <p class="paragraph">
-        Me chamo João Vitor Pereira Guimarães, tenho 23 anos, sou Dev. Jr e
-        estou cursando o 8° período em Ciência da Computação.
+        Me chamo João Vitor Pereira Guimarães, tenho 23 anos, estou
+        cursando o 8° período em Ciência da Computação e trabalho
+        integralmente na
+        <a
+          class="text-link"
+          href="https://ri.animaeducacao.com.br/#"
+          target="_blank"
+          >Ânima Educação</a
+        >
+        como Analista Júnior.
       </p>
       <p class="paragraph">
         Nas horas vagas gosto de praticar guitarra, jogar videogame e ler, porém
-        passo a grande maioria das minha horas livres vendo conteúdo sobre
+        passo a grande maioria das minhas horas livres vendo conteúdo sobre
         astrofísica/cosmologia. Ah, também adoro passar as manhãs de domingo
-        vendo Formula 1. Como disse aqui em cima, adoro qualquer conteúdo sobre
-        o nosso universo, minha série favorita? Com certeza é Cosmos! Tanto faz
-        se é com o Neil deGrasse ou com o Carl Sagan, as duas versões são
-        igualmente incríveis!
+        vendo Formula 1.
       </p>
       <p class="paragraph">
-        Tenho também um humilde perfil no Instagram chamado @astronomy.pic onde
-        tento trazer algumas das incríveis imagens do nosso cosmos, além de
+        Como disse aqui em cima, adoro qualquer conteúdo sobre o nosso universo,
+        minha série favorita? Com certeza é Cosmos! Tanto faz se é com o Neil
+        deGrasse ou com o Carl Sagan, as duas versões são igualmente incríveis!
+        Estou iniciando também um perfil no Instagram chamado
+        <a
+          class="text-link"
+          href="https://www.instagram.com/astronomy.pic/"
+          target="_blank"
+          >@astronomy.pic</a
+        >
+        onde tento trazer algumas das incríveis imagens do nosso cosmos, além de
         explicar um pouco sobre elas, dá uma conferida lá 😁.
       </p>
       <div class="d-flex justify-content-end">
@@ -84,6 +98,15 @@ export default {
   position: relative;
   top: 90px;
   text-align: right;
+}
+.text-link {
+  text-decoration: none;
+  color: #00ffb1;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.text-link:hover {
+  color: #02e09e;
 }
 @media (max-width: 991px) {
   .about-me {

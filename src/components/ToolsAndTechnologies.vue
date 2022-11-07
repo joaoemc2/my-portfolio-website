@@ -3,29 +3,54 @@
     <div class="tools-and-technologies">
       <div class="title-container">
         <div class="line"></div>
-        <h1 class="title">Ferramentas e Tecnologias</h1>
+        <h1 class="title">Ferramentas, Linguagens e Tecnologias</h1>
       </div>
       <p class="paragraph">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the
+        Algumas das ferramentas que mais utilizo no meu dia a dia, além das
+        linguagens em que costumo programar.
       </p>
       <div class="card-container">
         <div class="card-col">
-          <card-technologies-sub class="my-card" :title="cards[0].title" :text="cards[0].text"
-            :image="cards[0].image" />
-          <card-technologies-sub class="my-card" :title="cards[1].title" :text="cards[1].text"
-            :image="cards[1].image" />
+          <card-technologies-sub
+            class="my-card"
+            :title="cards[0].title"
+            :text="cards[0].text"
+            :image="cards[0].image"
+          />
+          <card-technologies-sub
+            class="my-card"
+            :title="cards[1].title"
+            :text="cards[1].text"
+            :image="cards[1].image"
+          />
         </div>
         <div class="card-col">
-          <card-technologies-sub class="my-card" :title="cards[2].title" :text="cards[2].text"
-            :image="cards[2].image" />
-          <card-technologies-sub class="my-card" :title="cards[3].title" :text="cards[3].text"
-            :image="cards[3].image" />
+          <card-technologies-sub
+            class="my-card"
+            :title="cards[2].title"
+            :text="cards[2].text"
+            :image="cards[2].image"
+          />
+          <card-technologies-sub
+            class="my-card"
+            :title="cards[3].title"
+            :text="cards[3].text"
+            :image="cards[3].image"
+          />
         </div>
         <div class="card-col">
-          <card-technologies-sub class="my-card" :title="cards[4].title" :text="cards[4].text"
-            :image="cards[4].image" />
+          <card-technologies-sub
+            class="my-card"
+            :title="cards[4].title"
+            :text="cards[4].text"
+            :image="cards[4].image"
+          />
+          <card-technologies-sub
+            class="my-card"
+            :title="cards[5].title"
+            :text="cards[5].text"
+            :image="cards[5].image"
+          />
         </div>
       </div>
     </div>
@@ -47,30 +72,30 @@ export default {
         },
         {
           title: "JavaScript",
-          text: "COnhecimento em Javascript e programmação orientada a objetos.",
+          text: "Conhecimento em Javascript e programmação orientada a objetos.",
           image: require("../assets/homeview/jsicon.png"),
         },
         {
-          title: "HTML & CSS",
-          text: "Conceitos intemediarios de HTML e CSS",
-          image: require("../assets/homeview/htmlcssicon.png"),
+          title: "Vue.Js",
+          text: "Experiencia pratica com Vue.Js e Vuetify Material Framework.",
+          image: require("../assets/homeview/vueicon.png"),
         },
         {
-          title: "HTML & CSS",
-          text: "Conceitos intemediarios de HTML e CSS",
-          image: require("../assets/homeview/htmlcssicon.png"),
+          title: "Bootstrap",
+          text: "Bootstrap é o Framework que mais gosto de utilizar, pela sua simplicidade e eficácia.",
+          image: require("../assets/homeview/bootstrapicon.png"),
         },
         {
-          title: "HTML & CSS",
+          title: "Node Js",
           text: "Conceitos intemediarios de HTML e CSS",
-          image: require("../assets/homeview/htmlcssicon.png"),
+          image: require("../assets/homeview/nodeicon.png"),
         },
         {
-          title: "HTML & CSS",
+          title: "Adobe Xd",
           text: "Conceitos intemediarios de HTML e CSS",
-          image: require("../assets/homeview/htmlcssicon.png"),
+          image: require("../assets/homeview/xdicon.png"),
         },
-      ]
+      ],
     };
   },
 };
