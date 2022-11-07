@@ -5,7 +5,7 @@
       <p class="paragraph"></p>
       <form action="https://api.staticforms.xyz/submit" method="post">
         <input type="hidden" name="accessKey" value="9406e597-b16b-417f-a109-0010313560f1">
-        <input type="hidden" name="redirectTo" value="http://localhost:8080/#/emailenviado">
+        <input type="hidden" name="redirectTo" value="http://localhost:8080/#/sucess">
         <div class="mb-3">
           <label for="name-form" class="form-label">Nome:</label>
           <input

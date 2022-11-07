@@ -24,8 +24,8 @@ const routes = [
     component: CertificadosView
   },
   {
-    path: '/emailenviado',
-    name: 'emailenviado',
+    path: '/sucess',
+    name: 'sucess',
     component: EmailConfirmView
   },
 ]
