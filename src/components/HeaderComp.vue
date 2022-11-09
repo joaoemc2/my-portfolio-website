@@ -87,9 +87,11 @@ export default {
   color: #fff;
   margin-right: 24px;
   font-size: 20px;
+  transition: .3s;
 }
 .bi:hover {
   color: #00ffb1;
+  transform: scale(1.2px) !important;
 }
 .img {
   width: 300px;

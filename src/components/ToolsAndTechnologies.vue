@@ -87,12 +87,12 @@ export default {
         },
         {
           title: "Node Js",
-          text: "Conceitos intemediarios de HTML e CSS",
+          text: "Conhecimento em API's REST/RESTful e Express framework.",
           image: require("../assets/homeview/nodeicon.png"),
         },
         {
           title: "Adobe Xd",
-          text: "Conceitos intemediarios de HTML e CSS",
+          text: "Conceitos de prototipação, UX/UI e Design System.",
           image: require("../assets/homeview/xdicon.png"),
         },
       ],

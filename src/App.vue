@@ -17,6 +17,12 @@ export default {
     NavBarComp,
     FooterComp,
   },
+  methods: {},
+  mounted: function () {
+    setTimeout(() => {
+      alert("Pagina em criação, algumas informaçoes podem estar incompletas.");
+    }, "1000");
+  },
 };
 </script>
 

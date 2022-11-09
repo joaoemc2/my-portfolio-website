@@ -47,6 +47,10 @@ export default {
   width: 60px;
   height: 60px;
   margin: 10px;
+  transition: 0.3s;
+}
+.image:hover{
+  transform: scale(1.2);
 }
 @media (max-width: 991px) {
 }

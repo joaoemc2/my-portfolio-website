@@ -2,7 +2,11 @@
   <div class="nav-bar">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">João V Guimarães</a>
+        <a class="navbar-brand"
+          ><router-link class="router-title" to="/"
+            >João V Guimarães</router-link
+          ></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -20,15 +24,15 @@
               ><router-link class="router" to="/">Inicio</router-link></a
             >
             <a class="nav-link"
-              ><router-link class="router" to="/">Projetos</router-link></a
+              ><router-link class="router" to="/projetos">Projetos</router-link></a
             >
             <a class="nav-link"
-              ><router-link class="router" to="/">Certificados</router-link></a
+              ><router-link class="router" to="/certificados">Certificados</router-link></a
             >
           </div>
-          <button type="button" class="btn btn-primary btn-contato">
+          <!-- <button type="button" class="btn btn-primary btn-contato">
             Entre em contato!
-          </button>
+          </button> -->
         </div>
       </div>
     </nav>
@@ -51,26 +55,33 @@ export default {
 .navbar-brand {
   color: #00ffb1;
 }
-.navbar-toggler{
+.navbar-toggler {
   background-color: #00ffb130;
+}
+.router-title {
+  color: #00ffb1;
+  text-decoration: none;
+  transition: 0.3s;
 }
 .router {
   color: #e1e1e1;
   text-decoration: none;
   transition: 0.3s;
 }
-.router:hover {
+.router:hover ,.router-title:hover {
   color: #00ce90;
 }
-.btn-contato {
+/* .btn-contato {
   background-color: #00ffb1;
   border-color: #00ffb1;
   color: #252044;
   font-weight: 500;
+} */
+.disabled {
+  opacity: 0.3;
 }
-
 @media (min-width: 992px) {
-  .navbar-collapse{
+  .navbar-collapse {
     display: flex;
     justify-content: space-between;
   }

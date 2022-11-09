@@ -1,18 +1,22 @@
 <template>
-    <div class="projetos">
-    </div>
-  </template>
+  <div class="projetos">
+    <projects-comp />
+  </div>
+</template>
   
   <script>
-  export default {
-    name: "ProjetosView",
-    components: {},
-    data() {
-      return {};
-    },
-  };
-  </script>
+import ProjectsComp from "@/components/ProjectsComp.vue";
+export default {
+  name: "ProjetosView",
+  components: { ProjectsComp },
+  data() {
+    return {};
+  },
+};
+</script>
   <style scoped>
-  
-  </style>
+  .projetos{
+    min-height: 90vh;
+  }
+</style>
   

@@ -71,6 +71,10 @@ export default {
   top: -260px;
   width: 400px;
   margin-left: 20px;
+  transition: .3s;
+}
+.img:hover{
+  transform: scale(1.1);
 }
 .title-container {
   position: relative;

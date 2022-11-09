@@ -80,6 +80,7 @@ export default {
   border-radius: 8px;
   padding: 30px;
   margin: 30px;
+  margin-bottom: 60px;
   background-color: #fff;
   max-width: 1200px;
 }
@@ -107,6 +108,7 @@ export default {
   .card-container {
     padding: 30px 8px;
     margin: 30px 16px;
+    margin-bottom: 60px;
   }
 }
 

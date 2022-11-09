@@ -13,7 +13,9 @@
             </p>
             <p class="card-text d-flex justify-content-between">
               <small class="text-muted">{{ update }}</small>
-              <a class="btn btn-primary" href="">Saiba mais</a>
+              <router-link class="router" :to="link">
+                <a class="btn btn-primary">Ver mais</a>
+              </router-link>
             </p>
           </div>
         </div>
@@ -30,6 +32,7 @@ export default {
     title: String,
     text: String,
     update: String,
+    link: String,
   },
 };
 </script>
@@ -55,8 +58,19 @@ export default {
   color: #252044;
   font-weight: 500;
 }
-.btn-primary:hover{
+.router {
+  color: #252044;
+}
+.btn-primary:hover {
   background-color: #00e6a1;
-  border-color:  #00e6a1;
+  border-color: #00e6a1;
+}
+.card {
+  transition: 0.3s;
+}
+@media (min-width: 992px) {
+  .card:hover {
+    transform: scale(1.05);
+  }
 }
 </style>

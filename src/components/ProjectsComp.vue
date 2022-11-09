@@ -6,9 +6,7 @@
         <h1 class="title">Projetos</h1>
       </div>
       <p class="paragraph">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the
+        Aqui estão os meus últimos projetos, fique a vontade para explorá-los!
       </p>
       <div class="card-container">
         <div class="card-col">
@@ -18,29 +16,33 @@
             :text="cards[0].text"
             :image="cards[0].image"
             :update="cards[0].update"
+            :link="cards[0].link"
           />
           <card-project-sub
             class="my-card"
-            :title="cards[0].title"
-            :text="cards[0].text"
-            :image="cards[0].image"
-            :update="cards[0].update"
+            :title="cards[1].title"
+            :text="cards[1].text"
+            :image="cards[1].image"
+            :update="cards[1].update"
+            :link="cards[1].link"
           />
         </div>
         <div class="card-col">
           <card-project-sub
             class="my-card"
-            :title="cards[0].title"
-            :text="cards[0].text"
-            :image="cards[0].image"
-            :update="cards[0].update"
+            :title="cards[2].title"
+            :text="cards[2].text"
+            :image="cards[2].image"
+            :update="cards[2].update"
+            :link="cards[3].link"
           />
           <card-project-sub
             class="my-card"
-            :title="cards[0].title"
-            :text="cards[0].text"
-            :image="cards[0].image"
-            :update="cards[0].update"
+            :title="cards[3].title"
+            :text="cards[3].text"
+            :image="cards[3].image"
+            :update="cards[3].update"
+            :link="cards[3].link"
           />
         </div>
       </div>
@@ -60,10 +62,32 @@ export default {
     return {
       cards: [
         {
-          title: "Projeto 1",
-          text: "aklsjdaksjdk kjasdkajsdkj sakd kajsd jaksdjkasjkdjaks kasjdklasjdkjaskdj sakdjaksjdlaksjd j jskdkajsdlkasj kjad",
+          title: "Project Schwarza",
+          text: "Aplicação web para executar cálculos das mais diversas equações da física de maneira fácil e rápida.",
           image: require("@/assets/homeview/cover-test.png"),
-          update: "12-09-2022",
+          update: "[em andamento]",
+          link: "/projectschwarza",
+        },
+        {
+          title: "Projeto 2",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
+          image: require("@/assets/undefinedimg.jpeg"),
+          update: "[finalizado]",
+          link: "/projectschwarza",
+        },
+        {
+          title: "Projeto 3",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
+          image: require("@/assets/undefinedimg.jpeg"),
+          update: "[finalizado]",
+          link: "/projectschwarza",
+        },
+        {
+          title: "Projeto 4",
+          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
+          image: require("@/assets/undefinedimg.jpeg"),
+          update: "[finalizado]",
+          link: "/projectschwarza",
         },
       ],
     };
