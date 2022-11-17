@@ -56,7 +56,7 @@ export default {
   color: #00ffb1;
 }
 .navbar-toggler {
-  background-color: #00ffb130;
+  background-color: #00ffb110;
 }
 .router-title {
   color: #00ffb1;

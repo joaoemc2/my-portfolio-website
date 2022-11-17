@@ -82,7 +82,7 @@ export default {
         },
         {
           title: "Bootstrap",
-          text: "Bootstrap é o Framework que mais gosto de utilizar, pela sua simplicidade e eficácia.",
+          text: "Conhecimento pratico em Bootstrap, sendo meu framework favorito pela sua simplicidade e eficácia.",
           image: require("../assets/homeview/bootstrapicon.png"),
         },
         {
@@ -102,11 +102,13 @@ export default {
 </script>
 
 <style scoped>
+
 .main-container {
   background-color: #ecebf3;
 }
 
 .tools-and-technologies {
+  width: 100%;
   max-width: 1920px;
   background-color: #ecebf3;
   padding: 70px 30px 30px 30px;

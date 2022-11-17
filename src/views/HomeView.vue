@@ -3,8 +3,8 @@
     <header-comp />
     <about-me-comp />
     <tools-and-technologies />
-    <projects-comp/>
-    <contact-comp/>
+    <projects-comp />
+    <contact-comp />
   </div>
 </template>
 
@@ -12,8 +12,8 @@
 import HeaderComp from "../components/HeaderComp.vue";
 import AboutMeComp from "../components/AboutMeComp.vue";
 import ToolsAndTechnologies from "../components/ToolsAndTechnologies.vue";
-import ProjectsComp from '@/components/ProjectsComp.vue';
-import ContactComp from "@/components/ContactComp.vue"
+import ProjectsComp from "@/components/ProjectsComp.vue";
+import ContactComp from "@/components/ContactComp.vue";
 
 export default {
   name: "HomeView",
@@ -22,10 +22,18 @@ export default {
     AboutMeComp,
     ToolsAndTechnologies,
     ProjectsComp,
-    ContactComp
+    ContactComp,
   },
   data() {
     return {};
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
+  mounted: function () {
+    this.scrollToTop();
   },
 };
 </script>

@@ -1,24 +1,18 @@
 <template>
   <div class="card-projects">
     <div class="card mb-3">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img :src="image" class="img-fluid rounded-start" alt="..." />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{{ title }}</h5>
-            <p class="card-text">
-              {{ text }}
-            </p>
-            <p class="card-text d-flex justify-content-between">
-              <small class="text-muted">{{ update }}</small>
-              <router-link class="router" :to="link">
-                <a class="btn btn-primary">Ver mais</a>
-              </router-link>
-            </p>
-          </div>
-        </div>
+      <img :src="image" class="img-fluid rounded-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ title }}</h5>
+        <p class="card-text">
+          {{ text }}
+        </p>
+        <p class="card-text d-flex justify-content-between">
+          <small class="text-muted">{{ update }}</small>
+          <router-link class="router" :to="link">
+            <a class="btn btn-primary">Ver mais</a>
+          </router-link>
+        </p>
       </div>
     </div>
   </div>
@@ -40,7 +34,7 @@ export default {
 
 <style scoped>
 .card {
-  max-width: 600px;
+  max-width: 500px;
   border: none;
   background-color: #ecebf3;
   border-radius: 10px;

@@ -12,6 +12,14 @@
 <script>
 export default {
   name: "EmailConfirmView",
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
+  mounted: function () {
+    this.scrollToTop();
+  },
 };
 </script>
 

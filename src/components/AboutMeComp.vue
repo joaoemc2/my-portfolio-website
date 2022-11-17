@@ -91,8 +91,9 @@ export default {
   font-size: 32px;
 }
 .paragraph {
+  width: 100%;
+  max-width: 1920px;
   margin-top: 30px;
-  max-width: 1080px;
 }
 .stephen {
   background-color: #00ffb1;

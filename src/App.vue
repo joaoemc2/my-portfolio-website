@@ -18,11 +18,11 @@ export default {
     FooterComp,
   },
   methods: {},
-  mounted: function () {
-    setTimeout(() => {
-      alert("Pagina em criação, algumas informaçoes podem estar incompletas.");
-    }, "1000");
-  },
+  // mounted: function () {
+  //   setTimeout(() => {
+  //     alert("Pagina em criação, algumas informaçoes podem estar incompletas.");
+  //   }, "1000");
+  // },
 };
 </script>
 

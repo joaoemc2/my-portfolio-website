@@ -33,10 +33,19 @@
           target="_black"
         ></a>
       </div>
-      <p class="about">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et
-        malesuada purus.
-      </p>
+      <div class="about">
+        <a class="nav-link"
+          ><router-link class="router" to="/">Inicio</router-link></a
+        >
+        <a class="nav-link"
+          ><router-link class="router" to="/projetos">Projetos</router-link></a
+        >
+        <a class="nav-link"
+          ><router-link class="router" to="/certificados"
+            >Certificados</router-link
+          ></a
+        >
+      </div>
       <hr class="line" />
       <p class="copyright">2022 - João Vitor Guimarães</p>
     </div>
@@ -69,8 +78,20 @@ export default {
   color: #00ffb1;
 }
 .about {
+  display: flex;
+  justify-content: center;
+}
+.nav-link{
+  width: 140px;
+  display: flex;
+  justify-content: center;
+
+}
+.router{
   color: #fff;
-  text-align: center;
+}
+.router:hover{
+  color: #06dd9d;
 }
 .line {
   color: #ffffff80;

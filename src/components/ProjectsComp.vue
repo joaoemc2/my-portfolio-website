@@ -26,23 +26,13 @@
             :update="cards[1].update"
             :link="cards[1].link"
           />
-        </div>
-        <div class="card-col">
           <card-project-sub
             class="my-card"
             :title="cards[2].title"
             :text="cards[2].text"
             :image="cards[2].image"
             :update="cards[2].update"
-            :link="cards[3].link"
-          />
-          <card-project-sub
-            class="my-card"
-            :title="cards[3].title"
-            :text="cards[3].text"
-            :image="cards[3].image"
-            :update="cards[3].update"
-            :link="cards[3].link"
+            :link="cards[2].link"
           />
         </div>
       </div>
@@ -81,14 +71,7 @@ export default {
           image: require("@/assets/undefinedimg.jpeg"),
           update: "[finalizado]",
           link: "/projectschwarza",
-        },
-        {
-          title: "Projeto 4",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        },
+        }
       ],
     };
   },
@@ -98,6 +81,7 @@ export default {
 <style scoped>
 .projects {
   padding: 70px 30px 30px 30px;
+  width: 100%;
   max-width: 1920px;
 }
 .title-container {
@@ -124,8 +108,9 @@ export default {
   align-items: center;
 }
 .card-col {
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .my-card {
   margin: 18px;
