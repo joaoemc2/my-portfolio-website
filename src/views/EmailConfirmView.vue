@@ -1,11 +1,11 @@
 <template>
   <div class="email-confirm">
     <h2 class="title">Mensagem enviada com sucesso!</h2>
-    <img class="img" src="@/assets/emailconfirmview/check.png" alt="" />
+    <img class="img" src="@/assets/emailconfirmview/check.png" alt="confirm_icon" />
     <h3 class="sub-title">
       Obrigado por entrar em contato, te responderei o mais rápido possível.
     </h3>
-    <a class="btn btn-primary" href="">Voltar para tela inicial</a>
+    <router-link class="btn btn-primary router" to="/">Voltar para o inicio</router-link>
   </div>
 </template>
 
@@ -57,9 +57,18 @@ export default {
   background: none;
   border: 1px solid #00ffb1;
   color: #00ffb1;
+  transition: .3s;
 }
 .btn-primary:hover {
   background-color: #00ffb1;
+  color: #252044;
+}
+.router{
+  text-decoration: none;
+  color: #00ffb1;
+  transition: .3s;
+}
+.router:hover{
   color: #252044;
 }
 </style>

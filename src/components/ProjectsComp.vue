@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import CardProjectSub from "./CardProjectSub.vue";
+import CardProjectSub from "./CardSubComp.vue";
 export default {
   components: {
     CardProjectSub,
