@@ -1,6 +1,6 @@
 <template>
   <div class="card my-3 mx-3">
-    <img :src="image" class="image img-fluid rounded-top mt-2" alt="..." />
+    <img :src="image" class="image img-fluid rounded-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">{{ title }}</h5>
       <p class="card-text">
@@ -32,11 +32,12 @@ export default {
 
 <style scoped>
 .card {
-  max-width: 500px;
+  width: 500px;
   border: none;
   background-color: #ecebf3;
   border-radius: 10px;
   min-height: 500px;
+  padding: 0;
 }
 
 .card-title {

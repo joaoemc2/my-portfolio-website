@@ -9,7 +9,7 @@
         Aqui estão os meus últimos projetos, fique a vontade para explorá-los!
       </p>
       <div class="card-container row d-flex justify-content-center align-items-center ">
-        <card-project-sub v-for="card in cards" :key="card.id" class="col-12 col-md-6 col-lg-4" :title="card.title"
+        <card-sub-comp v-for="card in cards" :key="card.id" class="col-12 col-md-6 col-lg-4" :title="card.title"
           :text="card.text" :image="card.image" :link="card.link" :update="card.update" />
       </div>
     </div>
@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import CardProjectSub from "@/components/CardSubComp.vue";
+import CardSubComp from "@/components/CardSubComp.vue";
 export default {
   components: {
-    CardProjectSub,
+    CardSubComp,
   },
 
   name: "ProjectsView",

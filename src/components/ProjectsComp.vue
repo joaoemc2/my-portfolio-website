@@ -8,10 +8,9 @@
       <p class="paragraph">
         Aqui estão os meus últimos projetos, fique a vontade para explorá-los!
       </p>
-      <div class="card-container">
-        <div class="card-col">
+      <div class="card-container row d-flex justify-content-center align-items-center">
           <card-project-sub
-            class="my-card"
+            class="my-card col-12 col-md-6 col-lg-4"
             :title="cards[0].title"
             :text="cards[0].text"
             :image="cards[0].image"
@@ -19,7 +18,7 @@
             :link="cards[0].link"
           />
           <card-project-sub
-            class="my-card"
+            class="my-card col-12 col-md-6 col-lg-4"
             :title="cards[1].title"
             :text="cards[1].text"
             :image="cards[1].image"
@@ -27,14 +26,13 @@
             :link="cards[1].link"
           />
           <card-project-sub
-            class="my-card"
+            class="my-card col-12 col-md-6 col-lg-4"
             :title="cards[2].title"
             :text="cards[2].text"
             :image="cards[2].image"
             :update="cards[2].update"
             :link="cards[2].link"
           />
-        </div>
       </div>
     </div>
   </div>
@@ -101,20 +99,7 @@ export default {
   max-width: 700px;
   margin-bottom: 50px;
 }
-.card-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-.card-col {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.my-card {
-  margin: 18px;
-}
+
 @media (max-width: 1300px) {
   .card-col {
     display: flex;

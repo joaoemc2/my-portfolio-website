@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import ProjetosView from '../views/ProjetosView'
 import CertificadosView from '../views/CertificadosView'
 import EmailConfirmView from '../views/EmailConfirmView'
-import ProjectSchwarzaView from '../views/ProjectSchwarzaView'
+import ProjectSchwarzaView from '../views/projects/ProjectSchwarzaView'
 
 Vue.use(VueRouter)
 

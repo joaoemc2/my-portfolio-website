@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex justify-content-center align-items-center">
-    <div class="projects">
+  <div class="certificados-main d-flex justify-content-center align-items-center">
+    <div class="certificados">
       <div class="title-container">
         <div class="line"></div>
         <h1 class="title">Certificados</h1>
@@ -35,7 +35,7 @@ export default {
         {
           id: 2,
           title: "Healt Lab 4.0 - UniBH",
-          text: "Certificado de participação de pesquisa e inicialização científica no Programa institucional de Inicialização Científica e Tecnológica - UniBH.",
+          text: "Certificado de participação no Programa institucional de Inicialização Científica e Tecnológica - UniBH.",
           image: require("@/assets/certificados/certificado_healt_lab.png"),
           update: "08-12-2022",
         },
@@ -50,7 +50,7 @@ export default {
           id: 4,
           title: "Databricks - Udemy",
           text: "Curso de unificação e análise de dados com Databricks realizado a Udemy.",
-          image: require("@/assets/certificados/certificado_databricks_udemy.jpg"),
+          image: require("@/assets/certificados/certificado_databricks_udemy.png"),
           update: "00-00-0000",
         },
         {
@@ -64,14 +64,14 @@ export default {
           id: 6,
           title: "Git e GitHub - Udemy",
           text: "Mini curso de Git e GitHub feito na Udemy com duração de 1 hora.",
-          image: require("@/assets/certificados/certificado_git_e_github.jpg"),
+          image: require("@/assets/certificados/certificado_git_e_github.png"),
           update: "00-00-0000",
         },
         {
           id: 7,
           title: "HTML & CSS - Udemy",
           text: "Curso realizado na Udemy contendo os principios de HTML e CSS com duração de 7 horas.",
-          image: require("@/assets/certificados/certificado_html_e_css.jpg"),
+          image: require("@/assets/certificados/certificado_html_e_css.png"),
           update: "00-00-0000",
         },
         {
@@ -131,7 +131,10 @@ export default {
 </script>
 
 <style scoped>
-.projects {
+.certificados-main{
+  background-color: #f8f8f8;
+}
+.certificados {
   padding: 50px 30px 30px 30px;
   width: 100%;
   max-width: 1920px;
