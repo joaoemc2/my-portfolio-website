@@ -1,6 +1,6 @@
 <template>
   <div class="card my-3 mx-3">
-    <img :src="image" class="image img-fluid rounded-top" alt="..." />
+    <img :src="image" class="image img-fluid rounded-top" alt="" />
     <div class="card-body">
       <h5 class="card-title">{{ title }}</h5>
       <p class="card-text">
@@ -25,7 +25,7 @@ export default {
     text: String,
     update: String,
     link: String,
-  },
+  }
 };
 </script>
 

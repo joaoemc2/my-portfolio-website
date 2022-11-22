@@ -40,7 +40,7 @@ export default {
         require("@/assets/homeview/jsicon.png"),
         require("@/assets/homeview/xdicon.png"),
       ],
-      links: ["https://github.com/joaoemc2", "https://www.behance.net/"],
+      links: ["https://github.com/joaoemc2", "https://www.behance.net/", ""],
     };
   },
   methods: {
