@@ -3,13 +3,13 @@
     <div class="projects">
       <div class="title-container">
         <div class="line"></div>
-        <h1 class="title">Projetos</h1>
+        <h2 class="title">Projetos</h2>
       </div>
       <p class="paragraph">
         Aqui estão os meus últimos projetos, fique a vontade para explorá-los!
       </p>
       <div class="card-container row d-flex justify-content-center align-items-center">
-          <card-project-sub
+          <card-project-sub 
             class="my-card col-12 col-md-6 col-lg-4"
             :title="cards[0].title"
             :text="cards[0].text"

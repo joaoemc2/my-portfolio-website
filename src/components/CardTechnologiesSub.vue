@@ -1,7 +1,7 @@
 <template>
   <div class="card-technologies">
     <div class="title-text">
-      <h2 class="title">{{ title }}</h2>
+      <h3 class="title">{{ title }}</h3>
       <p class="paragraph">{{ text }}</p>
     </div>
     <img :src="image" alt="" class="image img-fluid" />

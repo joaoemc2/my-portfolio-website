@@ -3,7 +3,7 @@
     <img src="../assets/homeview/astronaut.png" alt="" class="img" />
     <div class="title-container">
       <div class="line"></div>
-      <h1 class="title">Sobre Mim</h1>
+      <h2 class="title">Sobre Mim</h2>
       <p class="paragraph">
         Me chamo João Vitor Pereira Guimarães, tenho 23 anos, estou
         cursando o 8° período em Ciência da Computação e trabalho

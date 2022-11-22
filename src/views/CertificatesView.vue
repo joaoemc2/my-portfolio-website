@@ -21,7 +21,7 @@ export default {
     CardSubComp,
   },
 
-  name: "CertificadosView",
+  name: "CertificatesView",
   data() {
     return {
       cards: [
@@ -29,7 +29,7 @@ export default {
           id: 1,
           title: "Marketing Digital - Google",
           text: "Certificação de principios básicos de marketing digital feito pela Google como duração de 40 horas.",
-          image: require("@/assets/certificados/certificado_google_garage.png"),
+          image: "@/assets/certificados/certificado_google_garage.png",
           update: "08-12-2022",
         },
         {

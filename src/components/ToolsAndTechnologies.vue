@@ -3,7 +3,7 @@
     <div class="tools-and-technologies">
       <div class="title-container">
         <div class="line"></div>
-        <h1 class="title">Ferramentas, Linguagens e Tecnologias</h1>
+        <h2 class="title">Ferramentas, Linguagens e Tecnologias</h2>
       </div>
       <p class="paragraph">
         Algumas das ferramentas que mais utilizo no meu dia a dia, além das

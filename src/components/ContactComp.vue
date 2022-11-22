@@ -5,7 +5,7 @@
       <p class="paragraph">Entre em contato!</p>
       <form class="row" action="https://api.staticforms.xyz/submit" method="post">
         <input type="hidden" name="accessKey" value="9406e597-b16b-417f-a109-0010313560f1" />
-        <input type="hidden" name="redirectTo" value="http://localhost:8080/#/sucess" />
+        <input type="hidden" name="redirectTo" value="http://www.joaoguimaraes.com.br/#/sucess" />
         <div class="mb-3 col-12 col-lg-6">
           <label for="name-form" class="form-label">Nome:</label>
           <input type="text" name="name" class="form-control" id="name-form" placeholder="Digite seu nome" required />

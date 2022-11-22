@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProjetosView from '../views/ProjetosView'
-import CertificadosView from '../views/CertificadosView'
+import CertificatesView from '../views/CertificatesView'
 import EmailConfirmView from '../views/EmailConfirmView'
 import ProjectSchwarzaView from '../views/projects/ProjectSchwarzaView'
 
@@ -22,7 +22,7 @@ const routes = [
   {
     path: '/certificados',
     name: 'certificados',
-    component: CertificadosView
+    component: CertificatesView
   },
   {
     path: '/sucess',
