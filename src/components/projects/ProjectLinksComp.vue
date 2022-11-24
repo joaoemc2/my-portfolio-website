@@ -1,14 +1,18 @@
 <template>
-  <div class="project-links">
+  <div class="project-links mb-5">
     <div class="line"></div>
     <h2 class="title">Links</h2>
+    <div v-if="links[2]" class="links-container">
+      <a class="bi bi-browser-chrome" :href="links[2]" target="_blank"></a>
+      <a class="link-external" :href="links[2]" target="_blank">Visitar Site</a>
+    </div>
     <div class="links-container">
       <a class="bi bi-github" :href="links[0]" target="_blank"></a>
       <a class="link-external" :href="links[0]" target="_blank"
         >GitHub - Código fonte</a
       >
     </div>
-    <div class="links-container mb-5">
+    <div class="links-container">
       <a class="bi bi-behance" :href="links[1]" target="_blank"></a>
       <a class="link-external" :href="links[1]" target="_blank"
         >GitHub - Protótipo e Screenshots</a
@@ -36,14 +40,14 @@ export default {
 .title {
   color: #252044;
   font-size: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .links-container {
   display: flex;
   align-items: center;
 }
 .bi {
-  font-size: 28px;
+  font-size: 24px;
   margin-right: 12px;
   color: #252044;
 }
@@ -54,6 +58,5 @@ export default {
 .bi:hover,
 .link-external:hover {
   color: #00db9a;
-  transform: scale(1.03);
 }
 </style>

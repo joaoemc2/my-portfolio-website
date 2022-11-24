@@ -1,8 +1,8 @@
 <template>
   <div class="project-main">
     <project-header-comp :title="title" :subTitle="subTitle" />
-    <project-carousel-comp :imges="carouselImages" />
     <project-about-comp :about="about" />
+    <project-carousel-comp :imges="carouselImages" />
     <project-tools-comp :toolsImages="toolsImages" />
     <project-links-comp :links="links" />
   </div>
@@ -26,21 +26,28 @@ export default {
   data() {
     return {
       title: "Project Schwarza",
-      subTitle: "Loren",
+      subTitle: "Resolva equações da Física com poucos cliques!",
       carouselImages: [
         require("@/assets/projectschwarza/index.png"),
         require("@/assets/projectschwarza/mobile.png"),
         require("@/assets/projectschwarza/home.png"),
         require("@/assets/projectschwarza/equacao.png"),
       ],
-      about:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egetante massa. Maecenas ut lorem iaculis, accumsan purus nec, cursus ex. Invitae laoreet mauris, non aliquam quam. Phasellus iaculis neque in miinterdum, at tristique erat aliquet. Donec cursus massa ut sem molestieconsectetur. Fusce mollis pretium magna, vitae dignissim dui aliquet et.",
+      about: [
+        "O Project Schwarza tem como objetivo auxiliar pessoas a resolverem diversas equações da Física, da mais simples a mais complexa, trazendo uma experiência  rápida e simplificada.",
+        "A ideia inicial é criar um website desktop mobile-first totalmente responsivo, e posteriormente utilizar app webview para disponibilizar nas lojas Android e Apple. A previsão da versão 1.0 está para o final do primeiro trimestre de 2023.",
+        "",
+      ],
       toolsImages: [
         require("@/assets/homeview/vueicon.png"),
         require("@/assets/homeview/jsicon.png"),
         require("@/assets/homeview/xdicon.png"),
       ],
-      links: ["https://github.com/joaoemc2", "https://www.behance.net/", ""],
+      links: [
+        "https://github.com/joaoemc2",
+        "https://www.behance.net/",
+        "https://d1j2mmyqkimvg1.cloudfront.net",
+      ],
     };
   },
   methods: {

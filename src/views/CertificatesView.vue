@@ -1,14 +1,31 @@
 <template>
-  <div class="certificados-main d-flex justify-content-center align-items-center">
+  <div
+    class="certificados-main d-flex justify-content-center align-items-center"
+  >
     <div class="certificados">
       <div class="title-container">
         <div class="line"></div>
         <h1 class="title">Certificados</h1>
       </div>
       <p class="paragraph">Certificados, participações e cursos de extenção.</p>
-      <div class="card-container row d-flex justify-content-center align-items-center ">
-        <card-sub-comp v-for="card in cards" :key="card.id" class="col-12 col-md-6 col-lg-4" :title="card.title"
-          :text="card.text" :image="card.image" :update="card.update" />
+      <div
+        class="
+          card-container
+          row
+          d-flex
+          justify-content-center
+          align-items-center
+        "
+      >
+        <card-sub-comp
+          v-for="card in cards"
+          :key="card.id"
+          class="col-12 col-md-6 col-lg-4"
+          :title="card.title"
+          :text="card.text"
+          :image="card.image"
+          :update="card.update"
+        />
       </div>
     </div>
   </div>
@@ -29,7 +46,7 @@ export default {
           id: 1,
           title: "Marketing Digital - Google",
           text: "Certificação de principios básicos de marketing digital feito pela Google como duração de 40 horas.",
-          image: "@/assets/certificados/certificado_google_garage.png",
+          image: require("@/assets/certificados/certificado_google_garage.png"),
           update: "08-12-2022",
         },
         {
@@ -77,7 +94,7 @@ export default {
         {
           id: 8,
           title: "Python - Kaggle",
-          text: "Curso com os principios basicos da Linguagem Python",
+          text: "Curso com os principios basicos da Linguagem Python.",
           image: require("@/assets/certificados/certificado_python.png"),
           update: "00-00-0000",
         },
@@ -131,7 +148,7 @@ export default {
 </script>
 
 <style scoped>
-.certificados-main{
+.certificados-main {
   background-color: #f8f8f8;
 }
 .certificados {

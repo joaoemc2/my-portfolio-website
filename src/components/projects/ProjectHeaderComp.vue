@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style scoped>
+.header-comp {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
 .main-title {
   text-align: center;
   color: #252044;
@@ -36,6 +40,10 @@ export default {
   .main-title {
     margin-top: 30px;
     margin-bottom: 10px;
+  }
+  .header-comp {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 </style>

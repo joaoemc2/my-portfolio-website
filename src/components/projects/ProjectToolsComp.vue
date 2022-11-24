@@ -32,7 +32,7 @@ export default {
 .title {
   color: #252044;
   font-size: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .tool-icons {
   display: flex;
@@ -40,7 +40,7 @@ export default {
   margin-bottom: 30px;
 }
 .image {
-  width: 60px;
+  width: 40px;
   margin-right: 22px;
 }
 </style>

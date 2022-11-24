@@ -2,7 +2,8 @@
   <div class="project-about">
     <div class="line"></div>
     <h2 class="title">Sobre</h2>
-    <p class="about">{{ about }}</p>
+    <p class="about">{{ about[0] }}</p>
+    <p class="about">{{ about[1] }}</p>
   </div>
 </template>
 
@@ -10,7 +11,7 @@
 export default {
   name: "ProjectAboutComp",
   props: {
-    about: String,
+    about: Array,
   },
   data() {
     return {};
@@ -19,6 +20,9 @@ export default {
 </script>
 
 <style scoped>
+.project-about{
+  margin-bottom: 30px;
+}
 .line {
   background-color: #00ffb1;
   height: 3px;
@@ -34,6 +38,6 @@ export default {
   text-align: start;
   color: #252044;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 </style>

@@ -35,46 +35,7 @@ export default {
           update: "[em andamento]",
           link: "/projectschwarza",
         },
-        {
-          id: 2,
-          title: "Projeto 2",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        },
-        {
-          id: 3,
-          title: "Projeto 3",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        },
-        {
-          id: 4,
-          title: "Projeto 4",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        },
-        {
-          id: 5,
-          title: "Projeto 5",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        },
-        {
-          id: 6,
-          title: "Projeto 6",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        },
+        
       ],
     };
   },
@@ -117,26 +78,4 @@ export default {
   margin-bottom: 50px;
 }
 
-
-.card-col {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.my-card {
-  margin: 18px;
-}
-
-@media (max-width: 1300px) {
-  .card-col {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .my-card {
-    margin: 0px;
-  }
-}
 </style>
