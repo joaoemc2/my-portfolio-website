@@ -2,10 +2,11 @@
   <div class="contact-comp">
     <div class="card-container">
       <h2 class="title">Entre em Contato!</h2>
-      <p class="paragraph">Entre em contato!</p>
+      <!-- <p class="paragraph"></p> -->
       <form class="row" action="https://api.staticforms.xyz/submit" method="post">
         <input type="hidden" name="accessKey" value="9406e597-b16b-417f-a109-0010313560f1" />
-        <input type="hidden" name="redirectTo" value="http://www.joaoguimaraes.com.br/#/sucess" /> 
+        <input type="hidden" name="redirectTo" value="https://www.joaoguimaraes.com.br/#/sucess" />
+        <!-- <input type="hidden" name="redirectTo" value="http://localhost:8080/#/sucess" />  -->
         <div class="mb-3 col-12 col-lg-6">
           <label for="name-form" class="form-label">Nome:</label>
           <input type="text" name="name" class="form-control" id="name-form" placeholder="Digite seu nome" required />
@@ -56,6 +57,7 @@ export default {
   font-size: 32px;
   color: #252044;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .paragraph {

@@ -15,7 +15,7 @@ import ProjectAboutComp from "@/components/projects/ProjectAboutComp.vue";
 import ProjectToolsComp from "@/components/projects/ProjectToolsComp.vue";
 import ProjectLinksComp from "@/components/projects/ProjectLinksComp.vue";
 export default {
-  name: "ProjectSchwarzaView",
+  name: "DonutsAppView",
   components: {
     ProjectCarouselComp,
     ProjectHeaderComp,
@@ -25,39 +25,39 @@ export default {
   },
   data() {
     return {
-      title: "Project Schwarza",
-      subTitle: "Resolva equações da Física com poucos cliques!",
+      title: "Donuts Moon App",
+      subTitle:
+        "Protótipo do app de delivery fictício Donuts Moon criado para praticar conceitos de UX/UI.",
       carouselImages: [
-        require("@/assets/projectschwarza/index.png"),
-        require("@/assets/projectschwarza/mobile.png"),
-        require("@/assets/projectschwarza/home.png"),
-        require("@/assets/projectschwarza/equacao.png"),
+        require("@/assets/donutsapp/donuts_banner(1).png"),
+        require("@/assets/donutsapp/donuts_banner(2).png"),
+        require("@/assets/donutsapp/donuts_banner(3).png"),
+        require("@/assets/donutsapp/donuts_banner(4).png"),
       ],
       about: [
-        "O Project Schwarza tem como objetivo auxiliar pessoas a resolverem diversas equações da Física, da mais simples a mais complexa, trazendo uma experiência  rápida e simplificada.",
-        "A ideia inicial é criar um website desktop mobile-first totalmente responsivo, e posteriormente utilizar app webview para disponibilizar nas lojas Android e Apple. A previsão da versão 1.0 está para o final do primeiro trimestre de 2023.",
+        "Projeto criado como parte do curso de Adobe XD na plataforma UDEMY. Nesse projeto, foram aplicados conceitos de UX/UI para criar o aplicativo de delivery fictício Donuts Moon.",
         "",
       ],
       toolsImages: [
-        require("@/assets/homeview/vueicon.png"),
-        require("@/assets/homeview/jsicon.png"),
         require("@/assets/homeview/xdicon.png"),
+        require("@/assets/homeview/psicon.png"),
+
       ],
       links: [
         {
           name: "site",
-          active: true,
-          link: "https://d1j2mmyqkimvg1.cloudfront.net",
+          active: false,
+          link: "",
         },
         {
           name: "git",
-          active: true,
-          link: "https://github.com/joaoemc2/project-schwarza",
+          active: false,
+          link: "",
         },
         {
           name: "behance",
-          active: false,
-          link: "",
+          active: true,
+          link: "https://www.behance.net/gallery/129276063/Prototipo-UXUI-Donuts-Moon-app",
         },
       ],
     };

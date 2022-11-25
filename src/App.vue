@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav-bar-comp />
-    <router-view />
+    <router-view class="router" />
     <footer-comp />
   </div>
 </template>
@@ -33,6 +33,7 @@ export default {
 * {
   font-family: "Montserrat", sans-serif;
 }
+
 @media (max-width: 991px) {
   h2 {
     font-size: 26px !important;

@@ -89,6 +89,7 @@ export default {
 }
 .router{
   color: #fff;
+  text-decoration: none;
 }
 .router:hover{
   color: #06dd9d;

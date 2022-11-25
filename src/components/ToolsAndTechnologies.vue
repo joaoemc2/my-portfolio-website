@@ -82,7 +82,7 @@ export default {
         },
         {
           title: "Bootstrap",
-          text: "Conhecimento pratico em Bootstrap, sendo meu framework favorito pela sua simplicidade e eficácia.",
+          text: 'Conhecimento pratico em Bootstrap, e conceito "Mobile First".',
           image: require("../assets/homeview/bootstrapicon.png"),
         },
         {

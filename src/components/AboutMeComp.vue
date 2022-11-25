@@ -1,6 +1,6 @@
 <template>
   <div class="about-me">
-    <img src="../assets/homeview/astronaut.png" alt="" class="img" />
+    <img src="../assets/homeview/astronaut.png" alt="" class="img" title="the cake is a lie" />
     <div class="title-container">
       <div class="line"></div>
       <h2 class="title">Sobre Mim</h2>

@@ -3,9 +3,12 @@
     <div class="line"></div>
     <h2 class="title">Ferramentas Utilizadas</h2>
     <div class="tool-icons">
-      <img :src="toolsImages[0]" class="image" />
-      <img :src="toolsImages[1]" class="image" />
-      <img :src="toolsImages[2]" class="image" />
+      <img
+        v-for="image in toolsImages"
+        :key="image"
+        :src="image"
+        class="image"
+      />
     </div>
   </div>
 </template>

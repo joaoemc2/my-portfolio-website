@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ProjetosView from '../views/ProjetosView'
-import CertificatesView from '../views/CertificatesView'
-import EmailConfirmView from '../views/EmailConfirmView'
-import ProjectSchwarzaView from '../views/projects/ProjectSchwarzaView'
+import ProjetosView from '../views/ProjetosView.vue'
+import CertificatesView from '../views/CertificatesView.vue'
+import EmailConfirmView from '../views/EmailConfirmView.vue'
+import ProjectSchwarzaView from '../views/projects/ProjectSchwarzaView.vue'
+import DonutsAppView from '../views/projects/DonutsAppView.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/projectschwarza',
     name: 'projectschwarza',
     component: ProjectSchwarzaView
+  },
+  {
+    path: '/donutsapp',
+    name: 'donutsapp',
+    component: DonutsAppView
   },
 ]
 

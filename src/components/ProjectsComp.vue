@@ -8,31 +8,31 @@
       <p class="paragraph">
         Aqui estão os meus últimos projetos, fique a vontade para explorá-los!
       </p>
-      <div class="card-container row d-flex justify-content-center align-items-center">
-          <card-project-sub 
-            class="my-card col-12 col-md-6 col-lg-4"
-            :title="cards[0].title"
-            :text="cards[0].text"
-            :image="cards[0].image"
-            :update="cards[0].update"
-            :link="cards[0].link"
-          />
-          <card-project-sub
-            class="my-card col-12 col-md-6 col-lg-4"
-            :title="cards[1].title"
-            :text="cards[1].text"
-            :image="cards[1].image"
-            :update="cards[1].update"
-            :link="cards[1].link"
-          />
-          <card-project-sub
-            class="my-card col-12 col-md-6 col-lg-4"
-            :title="cards[2].title"
-            :text="cards[2].text"
-            :image="cards[2].image"
-            :update="cards[2].update"
-            :link="cards[2].link"
-          />
+      <div
+        class="
+          card-container
+          row
+          d-flex
+          justify-content-center
+          align-items-center
+        "
+      >
+        <card-project-sub
+          class="my-card col-12 col-md-6 col-lg-4"
+          :title="cards[0].title"
+          :text="cards[0].text"
+          :image="cards[0].image"
+          :update="cards[0].update"
+          :link="cards[0].link"
+        />
+        <card-project-sub
+          class="my-card col-12 col-md-6 col-lg-4"
+          :title="cards[1].title"
+          :text="cards[1].text"
+          :image="cards[1].image"
+          :update="cards[1].update"
+          :link="cards[1].link"
+        />
       </div>
     </div>
   </div>
@@ -50,26 +50,21 @@ export default {
     return {
       cards: [
         {
+          id: 1,
           title: "Project Schwarza",
           text: "Aplicação web para executar cálculos das mais diversas equações da física de maneira fácil e rápida.",
-          image: require("@/assets/homeview/cover-test.png"),
-          update: "[em andamento]",
+          image: require("@/assets/projectschwarza/schwarza_card_image.png"),
+          update: "[Em andamento]",
           link: "/projectschwarza",
         },
         {
-          title: "Projeto 2",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
+          id: 2,
+          title: "Donuts Moon App",
+          text: "Protótipo do app de delivery fictício Donuts Moon criado para praticar conceitos de UX/UI.",
+          image: require("@/assets/donutsapp/donuts_card_image.png"),
+          update: "[Finalizado]",
+          link: "/donutsapp",
         },
-        {
-          title: "Projeto 3",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut venenatis vitae arcu vitae faucibus.",
-          image: require("@/assets/undefinedimg.jpeg"),
-          update: "[finalizado]",
-          link: "/projectschwarza",
-        }
       ],
     };
   },

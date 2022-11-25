@@ -26,7 +26,7 @@ export default {
 <style scoped>
 .email-confirm {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-color: #252044;
   display: flex;
   flex-direction: column;
