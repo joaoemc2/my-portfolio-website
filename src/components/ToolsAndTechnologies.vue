@@ -72,7 +72,7 @@ export default {
         },
         {
           title: "JavaScript",
-          text: "Conhecimento em Javascript e programmação orientada a objetos.",
+          text: "Conhecimento em Javascript e programação orientada a objetos.",
           image: require("../assets/homeview/jsicon.png"),
         },
         {

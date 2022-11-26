@@ -6,8 +6,7 @@
       <h2 class="title">Sobre Mim</h2>
       <p class="paragraph">
         Me chamo João Vitor Pereira Guimarães, tenho 23 anos, estou
-        cursando o 8° período em Ciência da Computação e trabalho
-        integralmente na
+        cursando o 8° período em Ciência da Computação e trabalho na
         <a
           class="text-link"
           href="https://ri.animaeducacao.com.br/#"
@@ -105,13 +104,14 @@ export default {
   text-align: right;
 }
 .text-link {
-  text-decoration: none;
-  color: #00ffb1;
-  font-weight: 500;
+  /* text-decoration: none; */
+  /* color: #00ffb1; */
+  font-weight: 600;
   transition: 0.3s;
+  color: #252044;
 }
 .text-link:hover {
-  color: #02e09e;
+  color: #00ffb1;
 }
 @media (max-width: 991px) {
   .about-me {

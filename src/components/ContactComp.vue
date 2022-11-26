@@ -2,7 +2,7 @@
   <div class="contact-comp">
     <div class="card-container">
       <h2 class="title">Entre em Contato!</h2>
-      <!-- <p class="paragraph"></p> -->
+      <p class="paragraph">Para dúvidas ou orçamentos.</p>
       <form class="row" action="https://api.staticforms.xyz/submit" method="post">
         <input type="hidden" name="accessKey" value="9406e597-b16b-417f-a109-0010313560f1" />
         <input type="hidden" name="redirectTo" value="https://www.joaoguimaraes.com.br/#/sucess" />
@@ -57,7 +57,7 @@ export default {
   font-size: 32px;
   color: #252044;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 6px;
 }
 
 .paragraph {

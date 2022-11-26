@@ -2,8 +2,8 @@
   <div class="header">
     <div class="content">
       <div class="texts-icons">
-        <p class="paragraph-caps">JOÃO VITOR GUIMARAES, FRONT-END DEVELOPER</p>
-        <h1 class="title">Olá, Obrigado por visitar meu site :)</h1>
+        <p class="paragraph-caps">JOÃO VITOR GUIMARÃES, FRONT-END DEVELOPER</p>
+        <h1 class="title">Olá, obrigado por visitar meu site :)</h1>
         <p class="paragraph">
           Aqui você pode ver um pouco sobre mim, meus projetos e habilidades.
           Fique a vontade para explorar tudo!
