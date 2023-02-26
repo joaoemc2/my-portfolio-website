@@ -25,15 +25,6 @@
         Como disse aqui em cima, adoro qualquer conteúdo sobre o nosso universo,
         minha série favorita? Com certeza é Cosmos! Tanto faz se é com o Neil
         deGrasse ou com o Carl Sagan, as duas versões são igualmente incríveis!
-        Estou iniciando também um perfil no Instagram chamado
-        <a
-          class="text-link"
-          href="https://www.instagram.com/astronomy.pic/"
-          target="_blank"
-          >@astronomy.pic</a
-        >
-        onde tento trazer algumas das incríveis imagens do nosso cosmos, além de
-        explicar um pouco sobre elas, dá uma conferida lá 😁.
       </p>
       <div class="d-flex justify-content-end">
         <p class="stephen">
