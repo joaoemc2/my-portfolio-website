@@ -72,7 +72,7 @@ export default {
         },
         {
           title: "JavaScript",
-          text: "Conhecimento em Javascript e programação orientada a objetos.",
+          text: "Conhecimento em Javascript e Node.js.",
           image: require("../assets/homeview/jsicon.png"),
         },
         {
@@ -148,6 +148,7 @@ export default {
 
 .my-card {
   margin: 18px;
+  min-width: 450px;
 }
 
 @media (max-width: 991px) {

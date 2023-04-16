@@ -26,8 +26,8 @@ const routes = [
     component: CertificatesView
   },
   {
-    path: '/sucess',
-    name: 'sucess',
+    path: '/success',
+    name: 'success',
     component: EmailConfirmView
   },
   {

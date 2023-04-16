@@ -9,13 +9,7 @@
       </div>
       <p class="paragraph">Certificados, participações e cursos de extenção.</p>
       <div
-        class="
-          card-container
-          row
-          d-flex
-          justify-content-center
-          align-items-center
-        "
+        class="card-container row d-flex justify-content-center align-items-center"
       >
         <card-sub-comp
           v-for="card in cards"
@@ -58,80 +52,87 @@ export default {
         },
         {
           id: 3,
-          title: "cPanel - HostGator",
-          text: "Curso feito na HostGator Academy com o objetivo de ter uma primeira visão de como ultilizar o cPanel.",
-          image: require("@/assets/certificados/certificado_cpanel.png"),
-          update: "00-00-0000",
+          title: "TDC Connections - Belo Horizonte",
+          text: "Participação na Trilha UX Design do TDC 2023 CONNECTIONS, realizado em 23 de Março de 2023, no UniBH - Campus Buritis em Belo Horizonte.",
+          image: require("@/assets/certificados/certificado_tdc_connections.png"),
+          update: "23-03-2023",
         },
         {
           id: 4,
-          title: "Databricks - Udemy",
-          text: "Curso de unificação e análise de dados com Databricks realizado a Udemy.",
-          image: require("@/assets/certificados/certificado_databricks_udemy.png"),
-          update: "00-00-0000",
+          title: "cPanel - HostGator",
+          text: "Curso feito na HostGator Academy com o objetivo de ter uma primeira visão de como ultilizar o cPanel.",
+          image: require("@/assets/certificados/certificado_cpanel.png"),
+          update: "10-02-2022",
         },
         {
           id: 5,
-          title: "Finalista Hackahub 2022 - UniBH",
-          text: "Certificado de finalista do Hackahub edição 2022/2 na area de TI & Computação.",
-          image: require("@/assets/certificados/certificado_de_finalista_hackahub_2022.png"),
-          update: "00-00-0000",
+          title: "Databricks - Udemy",
+          text: "Curso de unificação e análise de dados com Databricks realizado a Udemy.",
+          image: require("@/assets/certificados/certificado_databricks_udemy.png"),
+          update: "19-09-2022",
         },
         {
           id: 6,
-          title: "Git e GitHub - Udemy",
-          text: "Mini curso de Git e GitHub feito na Udemy com duração de 1 hora.",
-          image: require("@/assets/certificados/certificado_git_e_github.png"),
-          update: "00-00-0000",
+          title: "Finalista Hackahub 2022 - UniBH",
+          text: "Certificado de finalista do Hackahub edição 2022/2 na area de TI & Computação.",
+          image: require("@/assets/certificados/certificado_de_finalista_hackahub_2022.png"),
+          update: "2022/02",
         },
         {
           id: 7,
-          title: "HTML & CSS - Udemy",
-          text: "Curso realizado na Udemy contendo os principios de HTML e CSS com duração de 7 horas.",
-          image: require("@/assets/certificados/certificado_html_e_css.png"),
-          update: "00-00-0000",
+          title: "Git e GitHub - Udemy",
+          text: "Mini curso de Git e GitHub feito na Udemy com duração de 1 hora.",
+          image: require("@/assets/certificados/certificado_git_e_github.png"),
+          update: "26-10-2022",
         },
         {
           id: 8,
-          title: "Python - Kaggle",
-          text: "Curso com os principios basicos da Linguagem Python.",
-          image: require("@/assets/certificados/certificado_python.png"),
-          update: "00-00-0000",
+          title: "HTML & CSS - Udemy",
+          text: "Curso realizado na Udemy contendo os principios de HTML e CSS com duração de 7 horas.",
+          image: require("@/assets/certificados/certificado_html_e_css.png"),
+          update: "09-02-2022",
         },
         {
           id: 9,
-          title: "Pandas - Kaggle",
-          text: "Curso com os principios basicos da biblioteca para Python: Pandas.",
-          image: require("@/assets/certificados/certificado_pandas.png"),
-          update: "00-00-0000",
+          title: "Python - Kaggle",
+          text: "Curso com os principios basicos da Linguagem Python.",
+          image: require("@/assets/certificados/certificado_python.png"),
+          update: "11-09-2022",
         },
         {
           id: 10,
-          title: "Ilustração Digital - UniBH",
-          text: "Curso de extenção de Ilustração Digital para jogos com carga horaria de 16 horas.",
-          image: require("@/assets/certificados/curso_de_extensao_ilustração_digital.png"),
-          update: "00-00-0000",
+          title: "Pandas - Kaggle",
+          text: "Curso com os principios basicos da biblioteca para Python: Pandas.",
+          image: require("@/assets/certificados/certificado_pandas.png"),
+          update: "17-09-2021",
         },
         {
           id: 11,
-          title: "Inteligência Artificial - UniBH",
-          text: "Curso de extenção de Inteligência Artificial com Java Script.",
-          image: require("@/assets/certificados/curso_de_extensao_inteligencia_artificial.png"),
-          update: "00-00-0000",
+          title: "Ilustração Digital - UniBH",
+          text: "Curso de extenção de Ilustração Digital para jogos com carga horaria de 16 horas.",
+          image: require("@/assets/certificados/curso_de_extensao_ilustração_digital.png"),
+          update: "04-12-2020",
         },
         {
           id: 12,
-          title: "Participação Hackahub 2022 - UniBH",
-          text: "Certificado de participação da primeira etapa do Hackahub - UniBH no segundo semestre de 2022.",
-          image: require("@/assets/certificados/participacao_hackahub_2022.png"),
-          update: "00-00-0000",
+          title: "Inteligência Artificial - UniBH",
+          text: "Curso de extenção de Inteligência Artificial com Java Script.",
+          image: require("@/assets/certificados/curso_de_extensao_inteligencia_artificial.png"),
+          update: "25-11-2020",
         },
         {
           id: 13,
+          title: "Participação Hackahub 2022 - UniBH",
+          text: "Certificado de participação da primeira etapa do Hackahub - UniBH no segundo semestre de 2022.",
+          image: require("@/assets/certificados/participacao_hackahub_2022.png"),
+          update: "2022/02",
+        },
+        {
+          id: 14,
           title: "Tech Week II - São Judas",
           text: "Participação no projeto de extenção da Teck Week II - São Judas.",
           image: require("@/assets/certificados/projeto_de_extensao_tech_week_ii.png"),
-          update: "00-00-0000",
+          update: "17-08-2021",
         },
       ],
     };
@@ -148,9 +149,11 @@ export default {
 </script>
 
 <style scoped>
+
 .certificados-main {
   background-color: #f8f8f8;
 }
+
 .certificados {
   padding: 50px 30px 30px 30px;
   width: 100%;

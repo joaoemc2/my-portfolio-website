@@ -68,6 +68,9 @@ export default {
 .card {
   transition: 0.3s;
 }
+.card-body{
+  min-height: 183px;
+}
 
 @media (min-width: 992px) {
   .card:hover {

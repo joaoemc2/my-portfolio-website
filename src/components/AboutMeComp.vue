@@ -1,11 +1,16 @@
 <template>
   <div class="about-me">
-    <img src="../assets/homeview/astronaut.png" alt="" class="img" title="the cake is a lie" />
+    <img
+      src="../assets/homeview/astronaut.png"
+      alt=""
+      class="img"
+      title="the cake is a lie"
+    />
     <div class="title-container">
       <div class="line"></div>
       <h2 class="title">Sobre Mim</h2>
       <p class="paragraph">
-        Me chamo João Vitor Pereira Guimarães, tenho 23 anos, estou
+        Olá, me chamo João Vitor Pereira Guimarães, tenho {{ idade() }} anos, estou
         cursando o 8° período em Ciência da Computação e trabalho na
         <a
           class="text-link"
@@ -13,7 +18,7 @@
           target="_blank"
           >Ânima Educação</a
         >
-        como Analista Júnior.
+        como Desenvolvedor de Sistemas Júnior.
       </p>
       <p class="paragraph">
         Nas horas vagas gosto de praticar guitarra, jogar videogame e ler, porém
@@ -42,6 +47,25 @@
 <script>
 export default {
   Name: "AboutMeComp",
+  data() {
+    return {};
+  },
+  methods: {
+    idade() {
+      let dataFinal = new Date();
+      let dataInicial = new Date("1999-01-06");
+
+      let diferencaEmAnos = dataFinal.getFullYear() - dataInicial.getFullYear();
+      if (
+        dataFinal.getMonth() < dataInicial.getMonth() ||
+        (dataFinal.getMonth() === dataInicial.getMonth() &&
+          dataFinal.getDate() < dataInicial.getDate())
+      ) {
+        diferencaEmAnos--;
+      }
+      return diferencaEmAnos;
+    },
+  },
 };
 </script>
 
@@ -61,9 +85,9 @@ export default {
   top: -260px;
   width: 400px;
   margin-left: 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
-.img:hover{
+.img:hover {
   transform: scale(1.1);
 }
 .title-container {
