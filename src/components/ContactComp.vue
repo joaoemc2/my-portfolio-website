@@ -71,8 +71,8 @@ export default {
   },
   data() {
     return {
-      baseUrl: "http://localhost:8080/#",
-      // baseUrl: "https://www.joaoguimaraes.com.br/#",
+      // baseUrl: "http://localhost:8080/#",
+      baseUrl: "https://www.joaoguimaraes.com.br/#",
     };
   },
 };

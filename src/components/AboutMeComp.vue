@@ -87,28 +87,34 @@ export default {
   margin-left: 20px;
   transition: 0.3s;
 }
+
 .img:hover {
   transform: scale(1.1);
 }
+
 .title-container {
   position: relative;
   top: -260px;
 }
+
 .line {
   background-color: #00ffb1;
   height: 3px;
   width: 60px;
   margin-bottom: 4px;
 }
+
 .title {
   color: #252044;
   font-size: 32px;
 }
+
 .paragraph {
   width: 100%;
   max-width: 1920px;
   margin-top: 30px;
 }
+
 .stephen {
   background-color: #00ffb1;
   color: #252044;
@@ -118,6 +124,7 @@ export default {
   top: 90px;
   text-align: right;
 }
+
 .text-link {
   /* text-decoration: none; */
   /* color: #00ffb1; */
@@ -128,6 +135,7 @@ export default {
 .text-link:hover {
   color: #00ffb1;
 }
+
 @media (max-width: 991px) {
   .about-me {
     padding-left: 30px;
