@@ -39,8 +39,8 @@ export default {
         "",
       ],
       toolsImages: [
-        require("@/assets/homeview/xdicon.png"),
-        require("@/assets/homeview/psicon.png"),
+        require("@/assets/homeview/icon_0001_xdicon.png"),
+        require("@/assets/homeview/icon_0003_psicon.png"),
 
       ],
       links: [

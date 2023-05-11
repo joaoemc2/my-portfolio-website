@@ -39,9 +39,9 @@ export default {
         "",
       ],
       toolsImages: [
-        require("@/assets/homeview/vueicon.png"),
-        require("@/assets/homeview/jsicon.png"),
-        require("@/assets/homeview/xdicon.png"),
+        require("@/assets/homeview/icon_0002_vueicon.png"),
+        require("@/assets/homeview/icon_0004_jsicon.png"),
+        require("@/assets/homeview/icon_0001_xdicon.png"),
       ],
       links: [
         {

@@ -2,8 +2,8 @@
   <div class="header">
     <div class="content">
       <div class="texts-icons">
-        <p class="paragraph-caps">JOÃO VITOR GUIMARÃES, FRONT-END DEVELOPER</p>
-        <h1 class="title">Olá, obrigado por visitar meu site :)</h1>
+        <p class="paragraph-caps">JOÃO VITOR GUIMARÃES, DEV. FRONT-END</p>
+        <h1 class="title">Olá, bem vindo ao meu portfólio :)</h1>
         <p class="paragraph">
           Aqui você pode ver um pouco sobre mim, meus projetos e habilidades.
           Fique a vontade para explorar tudo!
@@ -13,35 +13,41 @@
             class="bi bi-linkedin"
             href="https://www.linkedin.com/in/joaoemc2/"
             target="_black"
+            aria-label="visitar linkedin"
           ></a>
           <a
             class="bi bi-github"
             href="https://github.com/joaoemc2"
             target="_black"
+            aria-label="visitar github"
           ></a>
           <a
             class="bi bi-behance"
             href="https://www.behance.net/joaoemc2"
             target="_black"
+            aria-label="visitar behance"
           ></a>
           <a
             class="bi bi-instagram"
             href="https://www.instagram.com/joaoemc2/"
             target="_black"
+            aria-label="visitar instagram"
           ></a>
           <a
             class="bi bi-telegram"
             href="https://t.me/joaoemc2"
             target="_black"
+            aria-label="contato no telegram"
           ></a>
           <a
             class="bi bi-whatsapp"
             href="https://api.whatsapp.com/send?phone=5531971602258"
             target="_black"
+            aria-label="contato no whatsapp"
           ></a>
         </div>
       </div>
-      <img class="img" src="../assets/homeview/eu.png" alt="" />
+      <img class="img" src="../assets/homeview/eu.png" alt="foto de joão vitor" />
     </div>
   </div>
 </template>
@@ -96,6 +102,8 @@ export default {
 .img {
   width: 300px;
   margin-left: 50px;
+  border-radius: 11px;
+
 }
 @media (max-width: 991px) {
   .header {

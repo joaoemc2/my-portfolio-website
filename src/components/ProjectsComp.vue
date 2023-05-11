@@ -75,7 +75,7 @@ export default {
 .projects {
   padding: 70px 30px 30px 30px;
   width: 100%;
-  max-width: 1920px;
+  max-width: 1200px;
 }
 .title-container {
   margin-bottom: 30px;

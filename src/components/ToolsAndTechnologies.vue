@@ -6,94 +6,76 @@
         <h2 class="title">Ferramentas, Linguagens e Tecnologias</h2>
       </div>
       <p class="paragraph">
-        Algumas das ferramentas que mais utilizo no meu dia a dia, além das
-        linguagens em que costumo programar.
+        Algumas das ferramentas que mais utilizo, linguagens de programação e areas de conhecimentos.
       </p>
       <div class="card-container">
-        <div class="card-col">
-          <card-technologies-sub
-            class="my-card"
-            :title="cards[0].title"
-            :text="cards[0].text"
-            :image="cards[0].image"
-          />
-          <card-technologies-sub
-            class="my-card"
-            :title="cards[1].title"
-            :text="cards[1].text"
-            :image="cards[1].image"
-          />
-        </div>
-        <div class="card-col">
-          <card-technologies-sub
-            class="my-card"
-            :title="cards[2].title"
-            :text="cards[2].text"
-            :image="cards[2].image"
-          />
-          <card-technologies-sub
-            class="my-card"
-            :title="cards[3].title"
-            :text="cards[3].text"
-            :image="cards[3].image"
-          />
-        </div>
-        <div class="card-col">
-          <card-technologies-sub
-            class="my-card"
-            :title="cards[4].title"
-            :text="cards[4].text"
-            :image="cards[4].image"
-          />
-          <card-technologies-sub
-            class="my-card"
-            :title="cards[5].title"
-            :text="cards[5].text"
-            :image="cards[5].image"
-          />
-        </div>
+        <CardTechnologiesSub
+          v-for="item in cards"
+          v-bind:key="item.id"
+          class="my-card"
+          :title="item.title"
+          :text="item.text"
+          :image="item.image"
+          :alt="item.alt"
+        />
       </div>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="js">
 import CardTechnologiesSub from "./CardTechnologiesSub.vue";
 export default {
-  components: { CardTechnologiesSub },
+   components: {
+    CardTechnologiesSub,
+  },
   name: "ToolsAndTechnologies",
   data() {
     return {
+      title: "teste",
       cards: [
         {
+          id: 0,
           title: "HTML & CSS",
-          text: "Conceitos intemediarios de HTML 5, CSS 3 e SEO.",
-          image: require("../assets/homeview/htmlcssicon.png"),
+          text: "Conhecimento da estrutura de uma página HTML e suas tags, semântica HTML, seletores CSS, regras de estilo e técnicas de layout responsivo.",
+
+          image: require("../assets/homeview/icon_0005_htmlcssicon.png"),
+          alt: "icone html e css"
         },
         {
-          title: "JavaScript",
-          text: "Conhecimento em Javascript e Node.js.",
-          image: require("../assets/homeview/jsicon.png"),
+          id: 1,
+          title: "Acessibilidade Web",
+          text: 'Implementação de alternativas de texto para conteúdo visual, formulários e controles interativos acessíveis, utilização de elementos semânticos e noção de esquema de cores acessível.',
+          image: require("../assets/homeview/icon_0007_acessibilidade.png"),
+          alt: "icone bootstrap"
         },
         {
+          id: 2,
           title: "Vue.Js",
-          text: "Experiencia pratica com Vue.Js e Vuetify Material Framework.",
-          image: require("../assets/homeview/vueicon.png"),
+          text: "Experiencia com Vue.Js 2, VueX e Vuetify Material Framework. Estudando Vue.Js 3, Composition API e Pinia.",
+          image: require("../assets/homeview/icon_0002_vueicon.png"),
+          alt: "icone vue"
         },
         {
-          title: "Bootstrap",
-          text: 'Conhecimento pratico em Bootstrap, e conceito "Mobile First".',
-          image: require("../assets/homeview/bootstrapicon.png"),
+          id: 3,
+          title: "JavaScript",
+          text: "Programação assíncrona, callbacks, promises, async/await, APIs, AJAX e Node.js.",
+          image: require("../assets/homeview/icon_0004_jsicon.png"),
+          alt: "icone javascript"
         },
         {
-          title: "Node Js",
-          text: "Conhecimento em API's REST/RESTful e Express framework.",
-          image: require("../assets/homeview/nodeicon.png"),
+          id: 4,
+          title: "Fire Base",
+          text: "Conhecimento sobre os principais recursos do Firebase, incluindo autenticação, banco de dados em tempo real, armazenamento em nuvem, hospedagem, mensagens na nuvem e funções em nuvem.",
+          image: require("../assets/homeview/icon_0000_firebase.png"),
+          alt: "icone node"
         },
         {
-          title: "Adobe Xd",
-          text: "Conceitos de prototipação, UX/UI e Design System.",
-          image: require("../assets/homeview/xdicon.png"),
+          id: 5,
+          title: "Figma",
+          text: "Estrutura de organização, estilos de camada/texto, organização de elementos e criação de protótipos de baixa ou alta fidelidade.",
+          image: require("../assets/homeview/icon_0008_figma.png"),
+          alt: "icon adobe xd"
         },
       ],
     };
@@ -102,14 +84,13 @@ export default {
 </script>
 
 <style scoped>
-
 .main-container {
   background-color: #ecebf3;
 }
 
 .tools-and-technologies {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1200px;
   background-color: #ecebf3;
   padding: 70px 30px 30px 30px;
 }
@@ -136,29 +117,18 @@ export default {
 }
 
 .card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
   align-items: center;
-}
-
-.card-col {
-  display: flex;
-}
-
-.my-card {
-  margin: 18px;
-  min-width: 450px;
+  column-gap: 32px;
+  row-gap: 32px;
 }
 
 @media (max-width: 991px) {
-  .card-col {
-    flex-direction: column;
-  }
-
-  .my-card {
-    margin: 0;
-    margin-bottom: 18px;
+  .card-container {
+    display: grid;
+    grid-template-columns: 100%;
   }
 }
 </style>

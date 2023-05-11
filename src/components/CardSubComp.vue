@@ -68,8 +68,13 @@ export default {
 .card {
   transition: 0.3s;
 }
+
 .card-body{
   min-height: 183px;
+}
+
+.text-muted{
+  color: #252044 !important;
 }
 
 @media (min-width: 992px) {

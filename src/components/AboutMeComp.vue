@@ -1,44 +1,48 @@
 <template>
-  <div class="about-me">
-    <img
-      src="../assets/homeview/astronaut.png"
-      alt=""
-      class="img"
-      title="the cake is a lie"
-    />
-    <div class="title-container">
-      <div class="line"></div>
-      <h2 class="title">Sobre Mim</h2>
-      <p class="paragraph">
-        Olá, me chamo João Vitor Pereira Guimarães, tenho {{ idade() }} anos, estou
-        cursando o 8° período em Ciência da Computação e trabalho na
-        <a
-          class="text-link"
-          href="https://ri.animaeducacao.com.br/#"
-          target="_blank"
-          >Ânima Educação</a
-        >
-        como Desenvolvedor de Sistemas Júnior.
-      </p>
-      <p class="paragraph">
-        Nas horas vagas gosto de praticar guitarra, jogar videogame e ler, porém
-        passo a grande maioria das minhas horas livres vendo conteúdo sobre
-        astrofísica/cosmologia. Ah, também adoro passar as manhãs de domingo
-        vendo Formula 1.
-      </p>
-      <p class="paragraph">
-        Como disse aqui em cima, adoro qualquer conteúdo sobre o nosso universo,
-        minha série favorita? Com certeza é Cosmos! Tanto faz se é com o Neil
-        deGrasse ou com o Carl Sagan, as duas versões são igualmente incríveis!
-      </p>
-      <div class="d-flex justify-content-end">
-        <p class="stephen">
-          "O desejo profundo da humanidade pelo conhecimento é justificativa
-          suficiente para nossa busca contínua."
+  <div class="main-container d-flex justify-content-center align-items-center">
+    <div class="about-me">
+      <img
+        src="../assets/homeview/astronaut.png"
+        alt="cartoon astronauta"
+        class="img"
+        title="the cake is a lie"
+      />
+      <div class="title-container">
+        <div class="line"></div>
+        <h2 class="title">Sobre Mim</h2>
+        <p class="paragraph">
+          Olá, me chamo João Vitor Pereira Guimarães, tenho {{ idade() }} anos,
+          estou cursando o 8° período em Ciência da Computação e trabalho na
+          <a
+            class="text-link"
+            href="https://ri.animaeducacao.com.br/#"
+            target="_blank"
+            aria-label="site ânima educação"
+            >Ânima Educação</a
+          >
+          como Desenvolvedor de Sistemas Júnior.
         </p>
-      </div>
-      <div class="d-flex justify-content-end">
-        <p class="stephen">Stephen Hawking</p>
+        <p class="paragraph">
+          Nas horas vagas gosto de praticar guitarra, jogar videogame e ler,
+          porém passo a grande maioria das minhas horas livres vendo conteúdo
+          sobre astrofísica/cosmologia. Ah, também adoro passar as manhãs de
+          domingo vendo Formula 1.
+        </p>
+        <p class="paragraph">
+          Como disse aqui em cima, adoro qualquer conteúdo sobre o nosso
+          universo, minha série favorita? Com certeza é Cosmos! Tanto faz se é
+          com o Neil deGrasse ou com o Carl Sagan, as duas versões são
+          igualmente incríveis!
+        </p>
+        <div class="d-flex justify-content-end">
+          <p class="stephen">
+            "O desejo profundo da humanidade pelo conhecimento é justificativa
+            suficiente para nossa busca contínua."
+          </p>
+        </div>
+        <div class="d-flex justify-content-end">
+          <p class="stephen">Stephen Hawking</p>
+        </div>
       </div>
     </div>
   </div>
@@ -78,6 +82,9 @@ export default {
   padding-left: 30px;
   padding-right: 30px;
   height: -300px;
+
+  width: 100%;
+  max-width: 1200px;
 }
 
 .img {

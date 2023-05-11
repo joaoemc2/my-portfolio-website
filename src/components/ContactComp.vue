@@ -1,8 +1,8 @@
 <template>
   <div class="contact-comp">
     <div class="card-container">
-      <h2 class="title">Entre em Contato!</h2>
-      <p class="paragraph">Para dúvidas ou orçamentos.</p>
+      <p class="paragraph">Deseja entrar em contato comigo?</p>
+      <h2 class="title">Mande uma mensagem!</h2>
       <form
         class="row"
         action="https://api.staticforms.xyz/submit"
@@ -99,12 +99,13 @@ export default {
   font-size: 32px;
   color: #252044;
   text-align: center;
-  margin-bottom: 6px;
+  margin-bottom: 32px;
 }
 
 .paragraph {
   color: #252044;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .btn-primary {
