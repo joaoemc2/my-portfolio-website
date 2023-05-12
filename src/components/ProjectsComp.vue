@@ -9,13 +9,7 @@
         Aqui estão os meus últimos projetos, fique a vontade para explorá-los!
       </p>
       <div
-        class="
-          card-container
-          row
-          d-flex
-          justify-content-center
-          align-items-center
-        "
+        class="card-container row d-flex justify-content-center align-items-center"
       >
         <card-project-sub
           class="my-card col-12 col-md-6 col-lg-4"
@@ -32,6 +26,14 @@
           :image="cards[1].image"
           :update="cards[1].update"
           :link="cards[1].link"
+        />
+        <card-project-sub
+          class="my-card col-12 col-md-6 col-lg-4"
+          :title="cards[2].title"
+          :text="cards[2].text"
+          :image="cards[2].image"
+          :update="cards[2].update"
+          :link="cards[2].link"
         />
       </div>
     </div>
@@ -64,6 +66,14 @@ export default {
           image: require("@/assets/donutsapp/donuts_card_image.png"),
           update: "[Finalizado]",
           link: "/donutsapp",
+        },
+        {
+          id: 3,
+          title: "MedSim",
+          text: "Simulador de casos clínicos feito através da parceria entre alunos de cursos de tecnologia e medicina do ecossistema Ânima.",
+          image: require("@/assets/medsim/capa.png"),
+          update: "[Em andamento]",
+          link: "/medsim",
         },
       ],
     };

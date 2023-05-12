@@ -6,7 +6,8 @@
         <h2 class="title">Ferramentas, Linguagens e Tecnologias</h2>
       </div>
       <p class="paragraph">
-        Algumas das ferramentas que mais utilizo, linguagens de programação e areas de conhecimentos.
+        Algumas das ferramentas que mais utilizo, linguagens de programação e
+        areas de conhecimentos.
       </p>
       <div class="card-container">
         <CardTechnologiesSub
@@ -75,6 +76,13 @@ export default {
           title: "Figma",
           text: "Estrutura de organização, estilos de camada/texto, organização de elementos e criação de protótipos de baixa ou alta fidelidade.",
           image: require("../assets/homeview/icon_0008_figma.png"),
+          alt: "icon adobe xd"
+        },
+          {
+          id: 6,
+          title: "AWS",
+          text: 'Armazenamento escalável com "Bucket S3", hospedagem de sites estáticos com "CloudFront" e configuração de domínio (DNS) com "Route 53".',
+          image: require("../assets/homeview/icon_0009_aws.png"),
           alt: "icon adobe xd"
         },
       ],

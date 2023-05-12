@@ -6,6 +6,7 @@ import CertificatesView from '../views/CertificatesView.vue'
 import EmailConfirmView from '../views/EmailConfirmView.vue'
 import ProjectSchwarzaView from '../views/projects/ProjectSchwarzaView.vue'
 import DonutsAppView from '../views/projects/DonutsAppView.vue'
+import MedSimView from '../views/projects/MedSimView.vue'
 
 Vue.use(VueRouter)
 
@@ -39,6 +40,11 @@ const routes = [
     path: '/donutsapp',
     name: 'donutsapp',
     component: DonutsAppView
+  },
+  {
+    path: '/medsim',
+    name: 'medsim',
+    component: MedSimView
   },
 ]
 
