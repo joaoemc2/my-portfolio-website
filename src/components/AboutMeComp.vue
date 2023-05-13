@@ -4,7 +4,7 @@
   >
     <div class="about-me">
       <img
-        src="../assets/homeview/astronaut.png"
+        src="../assets/homeview/astronaut.webp"
         alt="cartoon astronauta"
         class="img"
         title="the cake is a lie"

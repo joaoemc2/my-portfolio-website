@@ -49,7 +49,7 @@
       </div>
       <img
         class="img"
-        src="../assets/homeview/eu.png"
+        src="../assets/homeview/eu.webp"
         alt="foto de joão vitor"
       />
     </div>
