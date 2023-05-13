@@ -13,27 +13,35 @@
         <div class="line"></div>
         <h2 class="title">Sobre Mim</h2>
         <p class="paragraph">
-          Olá, me chamo João Vitor Pereira Guimarães, tenho {{ idade() }} anos,
-          estou cursando o 8° período em Ciência da Computação e trabalho na
+          Olá, meu nome é João Vitor tenho {{ idade() }} anos e sou
+          desenvolvedor de sistemas júnior na
           <a
             class="text-link"
             href="https://ri.animaeducacao.com.br/#"
             target="_blank"
             aria-label="site ânima educação"
             >Ânima Educação</a
-          >
-          como Desenvolvedor de Sistemas Júnior.
+          >. Além de minha carreira profissional, tenho uma série de hobbies
+          que mantêm minha vida em equilíbrio. Gosto muito de tocar guitarra e,
+          às vezes, passo horas tocando minhas músicas favoritas. No meu tempo
+          livre, também gosto de estudar astronomia, ler sobre novas descobertas
+          no espaço e tentar entender o funcionamento do universo.
         </p>
         <p class="paragraph">
-          Nas horas vagas costumo de praticar guitarra, jogar videogame e ler. Gosto de passar a grande maioria das minhas horas livres vendo conteúdo
-          sobre astrofísica/cosmologia. Ah, também adoro passar as manhãs de
-          domingo vendo Formula 1.
+          Atualmente, estou cursando o 8° período de Ciência da Computação no
+          UniBH, onde tenho tido a oportunidade de aprender com excelentes
+          professores e desenvolver minhas habilidades de programação. A minha
+          paixão pela tecnologia me levou a seguir essa carreira, mas acredito
+          que meus interesses pessoais também são importantes para minha
+          formação como profissional.
         </p>
         <p class="paragraph">
-          Como disse aqui em cima, adoro qualquer conteúdo sobre o nosso
-          universo, minha série favorita? Com certeza é Cosmos! Tanto faz se é
-          com o Neil deGrasse ou com o Carl Sagan, as duas versões são
-          igualmente incríveis!
+          Além disso, sou um grande fã de Fórmula 1 e assisto a todas as
+          corridas. Acho fascinante a complexidade da engenharia dos carros de
+          corrida e a estratégia dos times para vencer. Acredito que meu amor
+          pela Fórmula 1 também me ensina a importância da determinação, da
+          disciplina e da capacidade de trabalhar em equipe - características
+          essenciais para qualquer dev. de sucesso.
         </p>
         <div class="d-flex justify-content-end">
           <p class="stephen">
