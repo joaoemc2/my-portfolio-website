@@ -2,7 +2,7 @@
   <div id="app">
     <nav-bar-comp />
     <router-view class="router" />
-    <footer-comp />
+    <footer-comp :version="version" />
   </div>
 </template>
 
@@ -14,6 +14,11 @@ export default {
   components: {
     NavBarComp,
     FooterComp,
+  },
+  data() {
+    return {
+      version: "1.2.0",
+    };
   },
 };
 </script>

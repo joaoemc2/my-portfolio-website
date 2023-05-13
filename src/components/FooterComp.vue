@@ -63,7 +63,7 @@
         </div>
       </div>
       <hr class="line" />
-      <p class="copyright">João Vitor Pereira Guimarães</p>
+      <p class="copyright">João Vitor Pereira Guimarães - v {{ version }}</p>
     </div>
   </footer>
 </template>
@@ -71,6 +71,9 @@
 <script>
 export default {
   name: "FooterComp",
+  props: {
+    version: String,
+  },
 };
 </script>
 
