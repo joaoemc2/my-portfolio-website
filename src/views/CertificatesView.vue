@@ -58,6 +58,13 @@ export default {
           update: "23-03-2023",
         },
         {
+          id: 15,
+          title: "Figma - Udemy",
+          text: "Curso de prototipação com Figma realizado a Udemy.",
+          image: require("@/assets/certificados/certificado_figma.png"),
+          update: "04-05-2023",
+        },
+        {
           id: 4,
           title: "cPanel - HostGator",
           text: "Curso feito na HostGator Academy com o objetivo de ter uma primeira visão de como ultilizar o cPanel.",
@@ -149,7 +156,6 @@ export default {
 </script>
 
 <style scoped>
-
 .certificados-main {
   background-color: #f8f8f8;
 }

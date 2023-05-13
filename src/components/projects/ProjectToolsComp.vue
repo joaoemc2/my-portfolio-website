@@ -1,5 +1,5 @@
 <template>
-  <div class="project-tools">
+  <section class="project-tools">
     <div class="line"></div>
     <h2 class="title">Ferramentas Utilizadas</h2>
     <div class="tool-icons">
@@ -10,7 +10,7 @@
         class="image"
       />
     </div>
-  </div>
+  </section>
 </template>
 <script>
 export default {
@@ -38,11 +38,12 @@ export default {
 }
 .tool-icons {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin-bottom: 30px;
 }
 .image {
   width: 40px;
   margin-right: 22px;
+  border-radius: 8px;
 }
 </style>

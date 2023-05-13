@@ -1,10 +1,10 @@
 <template>
-  <div class="project-about">
+  <section class="project-about">
     <div class="line"></div>
     <h2 class="title">Sobre</h2>
     <p class="about">{{ about[0] }}</p>
     <p class="about">{{ about[1] }}</p>
-  </div>
+  </section>
 </template>
 
 <script>

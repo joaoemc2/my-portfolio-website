@@ -1,5 +1,7 @@
 <template>
-  <div class="main-container d-flex justify-content-center align-items-center">
+  <section
+    class="main-container d-flex justify-content-center align-items-center"
+  >
     <div class="tools-and-technologies">
       <div class="title-container">
         <div class="line"></div>
@@ -21,7 +23,7 @@
         />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="js">

@@ -1,7 +1,7 @@
 <template>
-  <div class="contact-comp">
+  <section class="contact-comp">
     <div class="card-container">
-      <p class="paragraph">Deseja entrar em contato comigo?</p>
+      <p class="paragraph">Deseja entrar em contato?</p>
       <h2 class="title">Mande uma mensagem!</h2>
       <form
         class="row"
@@ -56,7 +56,7 @@
         </button>
       </form>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

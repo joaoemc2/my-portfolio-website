@@ -1,5 +1,7 @@
 <template>
-  <div class="main-container d-flex justify-content-center align-items-center">
+  <section
+    class="main-container d-flex justify-content-center align-items-center"
+  >
     <div class="about-me">
       <img
         src="../assets/homeview/astronaut.png"
@@ -45,7 +47,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

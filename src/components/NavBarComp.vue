@@ -1,5 +1,4 @@
 <template>
-  <div class="nav-bar">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand"
@@ -36,7 +35,6 @@
         </div>
       </div>
     </nav>
-  </div>
 </template>
 
 <script>
@@ -49,14 +47,15 @@ export default {
 </script>
 
 <style scoped>
-.nav-bar {
+.navbar {
   background-color: #252044;
 }
 .navbar-brand {
   color: #00ffb1;
 }
 .navbar-toggler {
-  background-color: #00ffb110;
+  background-color: #00ffb1;
+  opacity: .8;
 }
 .router-title {
   color: #00ffb1;

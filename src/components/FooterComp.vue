@@ -1,43 +1,43 @@
 <template>
-  <div class="footer-comp">
+  <footer class="footer-comp">
     <div class="footer-container">
       <div class="icons">
         <a
-            class="bi bi-linkedin"
-            href="https://www.linkedin.com/in/joaoemc2/"
-            target="_black"
-            aria-label="visitar linkedin"
-          ></a>
-          <a
-            class="bi bi-github"
-            href="https://github.com/joaoemc2"
-            target="_black"
-            aria-label="visitar github"
-          ></a>
-          <a
-            class="bi bi-behance"
-            href="https://www.behance.net/joaoemc2"
-            target="_black"
-            aria-label="visitar behance"
-          ></a>
-          <a
-            class="bi bi-instagram"
-            href="https://www.instagram.com/joao.emc2/"
-            target="_black"
-            aria-label="visitar instagram"
-          ></a>
-          <a
-            class="bi bi-telegram"
-            href="https://t.me/joaoemc2"
-            target="_black"
-            aria-label="contato no telegram"
-          ></a>
-          <a
-            class="bi bi-whatsapp"
-            href="https://api.whatsapp.com/send?phone=5531971602258"
-            target="_black"
-            aria-label="contato no whatsapp"
-          ></a>
+          class="bi bi-linkedin"
+          href="https://www.linkedin.com/in/joaoemc2/"
+          target="_black"
+          aria-label="visitar linkedin"
+        ></a>
+        <a
+          class="bi bi-github"
+          href="https://github.com/joaoemc2"
+          target="_black"
+          aria-label="visitar github"
+        ></a>
+        <a
+          class="bi bi-behance"
+          href="https://www.behance.net/joaoemc2"
+          target="_black"
+          aria-label="visitar behance"
+        ></a>
+        <a
+          class="bi bi-instagram"
+          href="https://www.instagram.com/joao.emc2/"
+          target="_black"
+          aria-label="visitar instagram"
+        ></a>
+        <a
+          class="bi bi-telegram"
+          href="https://t.me/joaoemc2"
+          target="_black"
+          aria-label="contato no telegram"
+        ></a>
+        <a
+          class="bi bi-whatsapp"
+          href="https://api.whatsapp.com/send?phone=5531971602258"
+          target="_black"
+          aria-label="contato no whatsapp"
+        ></a>
       </div>
       <div class="about">
         <a class="nav-link"
@@ -53,9 +53,9 @@
         >
       </div>
       <hr class="line" />
-      <p class="copyright">2022 - João Vitor Guimarães</p>
+      <p class="copyright">João Vitor Pereira Guimarães</p>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -87,17 +87,16 @@ export default {
   display: flex;
   justify-content: center;
 }
-.nav-link{
+.nav-link {
   width: 140px;
   display: flex;
   justify-content: center;
-
 }
-.router{
+.router {
   color: #fff;
   text-decoration: none;
 }
-.router:hover{
+.router:hover {
   color: #06dd9d;
 }
 .line {

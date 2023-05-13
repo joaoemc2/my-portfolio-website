@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <div class="content">
       <div class="texts-icons">
         <p class="paragraph-caps">JOÃO VITOR GUIMARÃES, DEV. FRONT-END</p>
@@ -47,9 +47,13 @@
           ></a>
         </div>
       </div>
-      <img class="img" src="../assets/homeview/eu.png" alt="foto de joão vitor" />
+      <img
+        class="img"
+        src="../assets/homeview/eu.png"
+        alt="foto de joão vitor"
+      />
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -93,7 +97,7 @@ export default {
   color: #fff;
   margin-right: 24px;
   font-size: 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .bi:hover {
   color: #00ffb1;
@@ -103,7 +107,10 @@ export default {
   width: 300px;
   margin-left: 50px;
   border-radius: 11px;
-
+  transition: .3s;
+}
+.img:hover {
+  transform: scale(1.05);
 }
 @media (max-width: 991px) {
   .header {

@@ -1,11 +1,11 @@
 <template>
-  <div class="project-main">
+  <main class="project-main">
     <project-header-comp :title="title" :subTitle="subTitle" />
     <project-about-comp :about="about" />
     <project-carousel-comp :imges="carouselImages" />
     <project-tools-comp :toolsImages="toolsImages" />
     <project-links-comp :links="links" />
-  </div>
+  </main>
 </template>
 
 <script>

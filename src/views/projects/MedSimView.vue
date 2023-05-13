@@ -1,11 +1,11 @@
 <template>
-  <div class="project-main">
+  <main class="project-main">
     <project-header-comp :title="title" :subTitle="subTitle" />
     <project-about-comp :about="about" />
     <project-carousel-comp :imges="carouselImages" />
     <project-tools-comp :toolsImages="toolsImages" />
     <project-links-comp :links="links" />
-  </div>
+  </main>
 </template>
 
 <script>
@@ -25,39 +25,38 @@ export default {
   },
   data() {
     return {
-      title: "Project Schwarza",
-      subTitle: "Resolva equações da Física com poucos cliques!",
+      title: "MedSim",
+      subTitle: "Simulador de casos clínicos",
       carouselImages: [
-        require("@/assets/projectschwarza/index.png"),
-        require("@/assets/projectschwarza/mobile.png"),
-        require("@/assets/projectschwarza/home.png"),
-        require("@/assets/projectschwarza/equacao.png"),
+        require("@/assets/medsim/medsim_banner_1.png"),
+        require("@/assets/medsim/medsim_banner_2.png"),
+        require("@/assets/medsim/medsim_banner_3.png"),
       ],
       about: [
-        "O Project Schwarza tem como objetivo auxiliar pessoas a resolverem diversas equações da Física, da mais simples a mais complexa, trazendo uma experiência  rápida e simplificada.",
-        "A ideia inicial é criar um website desktop mobile-first totalmente responsivo, e posteriormente utilizar app webview para disponibilizar nas lojas Android e Apple. A previsão da versão 1.0 está para o final do primeiro trimestre de 2023.",
+        "O MedSim é um simulador de casos clínicos em desenvolvimento pelo Squad 3 do projeto Heath Lab no UniBH.",
+        "É um simulador criado para auxiliar alunos de Medicina e cursos relacionados a testarem e melhorarem suas habilidades através de um paciente virtual.",
         "",
       ],
       toolsImages: [
-        require("@/assets/homeview/icon_0002_vueicon.png"),
-        require("@/assets/homeview/icon_0004_jsicon.png"),
-        require("@/assets/homeview/icon_0001_xdicon.png"),
+        require("@/assets/homeview/icon_0010_react.png"),
+        require("@/assets/homeview/icon_0011_ts.png"),
+        require("@/assets/homeview/icon_0008_figma.png"),
       ],
       links: [
         {
           name: "site",
-          active: true,
-          link: "https://d1j2mmyqkimvg1.cloudfront.net",
+          active: false,
+          link: "",
         },
         {
           name: "git",
-          active: true,
-          link: "https://github.com/joaoemc2/project-schwarza",
-        },
-        {
-          name: "behance",
           active: false,
           link: "",
+        },
+        {
+          name: "Protótipo",
+          active: true,
+          link: "https://www.figma.com/file/tiRN0rzYTdXNG760Mevjok/MedSim?type=design&node-id=148%3A630&t=Un3iKQoC6jDgeTME-1",
         },
       ],
     };

@@ -1,8 +1,8 @@
 <template>
-  <div class="header-comp">
+  <header class="header-comp">
     <h1 class="main-title">{{ title }}</h1>
     <p class="sub-title">{{ subTitle }}</p>
-  </div>
+  </header>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel-comp">
+  <section class="carousel-comp">
     <div class="line"></div>
     <h2 class="title">Screenshots</h2>
     <div
@@ -59,7 +59,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-center align-items-center">
+  <section class="d-flex justify-content-center align-items-center">
     <div class="projects">
       <div class="title-container">
         <div class="line"></div>
@@ -37,7 +37,7 @@
         />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -70,8 +70,8 @@ export default {
         {
           id: 3,
           title: "MedSim",
-          text: "Simulador de casos clínicos feito através da parceria entre alunos de cursos de tecnologia e medicina do ecossistema Ânima.",
-          image: require("@/assets/medsim/capa.png"),
+          text: "Simulador de casos clínicos feito através da parceria entre alunos de cursos de tecnologia e medicina do UniBH.",
+          image: require("@/assets/medsim/medsim_card_image.png"),
           update: "[Em andamento]",
           link: "/medsim",
         },

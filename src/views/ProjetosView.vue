@@ -59,6 +59,14 @@ export default {
           update: "[Finalizado]",
           link: "/donutsapp",
         },
+                {
+          id: 3,
+          title: "MedSim",
+          text: "Simulador de casos clínicos feito através da parceria entre alunos de cursos de tecnologia e medicina do UniBH.",
+          image: require("@/assets/medsim/medsim_card_image.png"),
+          update: "[Em andamento]",
+          link: "/medsim",
+        },
       ],
     };
   },

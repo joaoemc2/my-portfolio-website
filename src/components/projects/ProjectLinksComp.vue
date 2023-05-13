@@ -1,5 +1,5 @@
 <template>
-  <div class="project-links mb-5">
+  <section class="project-links mb-5">
     <div class="line"></div>
     <h2 class="title">Links</h2>
     <div v-if="links[0].active" class="links-container">
@@ -15,12 +15,12 @@
       >
     </div>
     <div v-if="links[2].active" class="links-container">
-      <a class="bi bi-behance" :href="links[2].link" target="_blank"></a>
+      <a class="bi bi-vector-pen" :href="links[2].link" target="_blank"></a>
       <a class="link-external" :href="links[2].link" target="_blank"
-        >GitHub - Protótipo e Screenshots</a
+        >Protótipo - UX/UI</a
       >
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

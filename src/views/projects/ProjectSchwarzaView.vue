@@ -1,11 +1,11 @@
 <template>
-  <div class="project-main">
+  <main class="project-main">
     <project-header-comp :title="title" :subTitle="subTitle" />
     <project-about-comp :about="about" />
     <project-carousel-comp :imges="carouselImages" />
     <project-tools-comp :toolsImages="toolsImages" />
     <project-links-comp :links="links" />
-  </div>
+  </main>
 </template>
 
 <script>
@@ -35,7 +35,7 @@ export default {
       ],
       about: [
         "O Project Schwarza tem como objetivo auxiliar pessoas a resolverem diversas equações da Física, da mais simples a mais complexa, trazendo uma experiência  rápida e simplificada.",
-        "A ideia inicial é criar um website desktop mobile-first totalmente responsivo, e posteriormente utilizar app webview para disponibilizar nas lojas Android e Apple. A previsão da versão 1.0 está para o final do primeiro trimestre de 2023.",
+        "A ideia inicial é criar um website desktop mobile-first totalmente responsivo, e posteriormente utilizar app webview para disponibilizar nas lojas Android e Apple.",
         "",
       ],
       toolsImages: [
