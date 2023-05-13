@@ -25,8 +25,7 @@
           como Desenvolvedor de Sistemas Júnior.
         </p>
         <p class="paragraph">
-          Nas horas vagas gosto de praticar guitarra, jogar videogame e ler,
-          porém passo a grande maioria das minhas horas livres vendo conteúdo
+          Nas horas vagas costumo de praticar guitarra, jogar videogame e ler. Gosto de passar a grande maioria das minhas horas livres vendo conteúdo
           sobre astrofísica/cosmologia. Ah, também adoro passar as manhãs de
           domingo vendo Formula 1.
         </p>
