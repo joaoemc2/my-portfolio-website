@@ -3,6 +3,7 @@
     <nav-bar-comp />
     <router-view class="router" />
     <footer-comp :version="version" />
+    <!-- G-10485728 -->
   </div>
 </template>
 
