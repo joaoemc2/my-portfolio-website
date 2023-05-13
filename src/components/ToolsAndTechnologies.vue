@@ -47,24 +47,24 @@ export default {
         },
         {
           id: 1,
-          title: "Acessibilidade Web",
-          text: 'Implementação de alternativas de texto para conteúdo visual, formulários e controles interativos acessíveis, utilização de elementos semânticos e noção de esquema de cores acessível.',
-          image: require("../assets/homeview/icon_0007_acessibilidade.png"),
-          alt: "icone bootstrap"
-        },
-        {
-          id: 2,
           title: "Vue.Js",
           text: "Experiencia com Vue.Js 2, VueX e Vuetify Material Framework. Estudando Vue.Js 3, Composition API e Pinia.",
           image: require("../assets/homeview/icon_0002_vueicon.png"),
           alt: "icone vue"
         },
         {
-          id: 3,
+          id: 2,
           title: "JavaScript",
           text: "Programação assíncrona, callbacks, promises, async/await, APIs, AJAX e Node.js.",
           image: require("../assets/homeview/icon_0004_jsicon.png"),
           alt: "icone javascript"
+        },
+        {
+          id: 3,
+          title: "Acessibilidade Web",
+          text: 'Implementação de alternativas de texto para conteúdo visual, formulários e controles interativos acessíveis, utilização de elementos semânticos e noção de esquema de cores acessível.',
+          image: require("../assets/homeview/icon_0007_acessibilidade.png"),
+          alt: "icone bootstrap"
         },
         {
           id: 4,
