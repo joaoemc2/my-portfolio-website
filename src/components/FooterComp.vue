@@ -40,17 +40,27 @@
         ></a>
       </div>
       <div class="about">
-        <a class="nav-link"
-          ><router-link class="router" to="/">Inicio</router-link></a
-        >
-        <a class="nav-link"
-          ><router-link class="router" to="/projetos">Projetos</router-link></a
-        >
-        <a class="nav-link"
-          ><router-link class="router" to="/certificados"
+        <div class="nav-link">
+          <router-link aria-label="ir para inicio" class="router" to="/"
+            >Inicio</router-link
+          >
+        </div>
+        <div class="nav-link">
+          <router-link
+            aria-label="ir para projetos"
+            class="router"
+            to="/projetos"
+            >Projetos</router-link
+          >
+        </div>
+        <div class="nav-link">
+          <router-link
+            aria-label="ir para certificados"
+            class="router"
+            to="/certificados"
             >Certificados</router-link
-          ></a
-        >
+          >
+        </div>
       </div>
       <hr class="line" />
       <p class="copyright">João Vitor Pereira Guimarães</p>

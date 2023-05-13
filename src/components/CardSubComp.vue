@@ -9,7 +9,12 @@
       <p class="card-text d-flex justify-content-between">
         <small class="text-muted">{{ update }}</small>
         <router-link class="router" :to="link">
-          <a class="btn btn-primary">Ver mais</a>
+          <button
+            :aria-label="'ver mais sobre o ' + title"
+            class="btn btn-primary"
+          >
+            Ver mais
+          </button>
         </router-link>
       </p>
     </div>
@@ -25,10 +30,9 @@ export default {
     text: String,
     update: String,
     link: String,
-  }
+  },
 };
 </script>
-
 
 <style scoped>
 .card {
@@ -69,11 +73,11 @@ export default {
   transition: 0.3s;
 }
 
-.card-body{
+.card-body {
   min-height: 183px;
 }
 
-.text-muted{
+.text-muted {
   color: #252044 !important;
 }
 

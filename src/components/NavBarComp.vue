@@ -1,40 +1,52 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand"
-          ><router-link class="router-title" to="/"
-            >João V Guimarães</router-link
-          ></a
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        <router-link aria-label="ir para inicio" class="router-title" to="/"
+          >João V Guimarães</router-link
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link"
-              ><router-link class="router" to="/">Inicio</router-link></a
-            >
-            <a class="nav-link"
-              ><router-link class="router" to="/projetos">Projetos</router-link></a
-            >
-            <a class="nav-link"
-              ><router-link class="router" to="/certificados">Certificados</router-link></a
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <div class="nav-link">
+            <router-link aria-label="ir para inicio" class="router" to="/"
+              >Inicio</router-link
             >
           </div>
-          <!-- <button type="button" class="btn btn-primary btn-contato">
+          <div class="nav-link">
+            <router-link
+              aria-label="ir para projetos"
+              class="router"
+              to="/projetos"
+              >Projetos</router-link
+            >
+          </div>
+          <div class="nav-link">
+            <router-link
+              aria-label="ir para certificados"
+              class="router"
+              to="/certificados"
+              >Certificados</router-link
+            >
+          </div>
+        </div>
+        <!-- <button type="button" class="btn btn-primary btn-contato">
             Entre em contato!
           </button> -->
-        </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 </template>
 
 <script>
@@ -55,7 +67,7 @@ export default {
 }
 .navbar-toggler {
   background-color: #00ffb1;
-  opacity: .8;
+  opacity: 0.8;
 }
 .router-title {
   color: #00ffb1;
@@ -67,7 +79,8 @@ export default {
   text-decoration: none;
   transition: 0.3s;
 }
-.router:hover ,.router-title:hover {
+.router:hover,
+.router-title:hover {
   color: #00ce90;
 }
 /* .btn-contato {
