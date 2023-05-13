@@ -7,8 +7,6 @@
 </template>
 
 <script>
-import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import NavBarComp from "./components/NavBarComp.vue";
 import FooterComp from "./components/FooterComp.vue";
 
