@@ -13,35 +13,34 @@
         <div class="line"></div>
         <h2 class="title">Sobre Mim</h2>
         <p class="paragraph">
-          Olá, meu nome é João Vitor tenho {{ idade() }} anos e sou
-          desenvolvedor de sistemas júnior na
+          Olá, meu nome é João Vitor tenho {{ idade() }} anos e sou formado em
+          Ciência da Computação. Atualmente, trabalho como desenvolvedor na
           <a
             class="text-link"
             href="https://ri.animaeducacao.com.br/#"
             target="_blank"
             aria-label="site ânima educação"
             >Ânima Educação</a
-          >. Além de minha carreira profissional, tenho uma série de hobbies
-          que mantêm minha vida em equilíbrio. Gosto muito de tocar guitarra e,
-          às vezes, passo horas tocando minhas músicas favoritas. No meu tempo
-          livre, também gosto de estudar astronomia, ler sobre novas descobertas
-          no espaço e tentar entender o funcionamento do universo.
+          >, onde contribuo para projetos na área educacional.
         </p>
         <p class="paragraph">
-          Atualmente, estou cursando o 8° período de Ciência da Computação no
-          UniBH, onde tenho tido a oportunidade de aprender com excelentes
-          professores e desenvolver minhas habilidades de programação. A minha
-          paixão pela tecnologia me levou a seguir essa carreira, mas acredito
-          que meus interesses pessoais também são importantes para minha
-          formação como profissional.
+          Além do meu trabalho, tenho alguns hobbies variados. Gosto de jogar
+          videogame para relaxar e sempre tenho um livro por perto para
+          aproveitar meu tempo livre. Também gosto bastante de estudar
+          astronomia, ler sobre novas descobertas no espaço e tentar entender o
+          funcionamento do nosso universo.
         </p>
         <p class="paragraph">
-          Além disso, sou um grande fã de Fórmula 1 e assisto a todas as
-          corridas. Acho fascinante a complexidade da engenharia dos carros de
-          corrida e a estratégia dos times para vencer. Acredito que meu amor
-          pela Fórmula 1 também me ensina a importância da determinação, da
-          disciplina e da capacidade de trabalhar em equipe - características
-          essenciais para qualquer dev. de sucesso.
+          Para aliviar a mente gosto de tocar guitarra, meu estilo musical
+          favorito é o rock e heavy metal clássico. Pra mim, música alta é a
+          melhor meditação! Também sou fã de Formula 1 e WEC.
+        </p>
+        <p class="paragraph">
+          Em resumo, sou um entusiasta da tecnologia que busca equilibrar o
+          universo da programação com uma variedade de interesses pessoais, que
+          vão desde tecnologia até o entretenimento e hobbies diversos. Se
+          quiser trocar ideias sobre qualquer um desses tópicos, estou à
+          disposição!
         </p>
         <div class="d-flex justify-content-end">
           <p class="stephen">

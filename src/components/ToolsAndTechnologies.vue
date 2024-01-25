@@ -67,13 +67,6 @@ export default {
           alt: "icone bootstrap"
         },
         {
-          id: 4,
-          title: "Fire Base",
-          text: "Conhecimento sobre os principais recursos do Firebase, incluindo autenticação, banco de dados em tempo real, armazenamento em nuvem, hospedagem, mensagens na nuvem e funções em nuvem.",
-          image: require("../assets/homeview/icon_0000_firebase.png"),
-          alt: "icone node"
-        },
-        {
           id: 5,
           title: "Figma",
           text: "Estrutura de organização, estilos de camada/texto, organização de elementos e criação de protótipos de baixa ou alta fidelidade.",

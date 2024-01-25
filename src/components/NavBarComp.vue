@@ -41,9 +41,6 @@
             >
           </div>
         </div>
-        <!-- <button type="button" class="btn btn-primary btn-contato">
-            Entre em contato!
-          </button> -->
       </div>
     </div>
   </nav>
@@ -83,12 +80,6 @@ export default {
 .router-title:hover {
   color: #00ce90;
 }
-/* .btn-contato {
-  background-color: #00ffb1;
-  border-color: #00ffb1;
-  color: #252044;
-  font-weight: 500;
-} */
 .disabled {
   opacity: 0.3;
 }
