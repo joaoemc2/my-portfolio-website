@@ -37,10 +37,24 @@ export default {
     return {
       cards: [
         {
+          id: 0,
+          title: "Bacharel - Ciência da Computação - UniBH",
+          text: "Conclusão do curso de Ciência da Computação pelo Centro Universitário de Belo Horizonte - UniBH.",
+          image: require("@/assets/certificados/certificado_ciencia_da_computacao.png"),
+          update: "08-12-2022",
+        },
+        {
           id: 1,
           title: "Marketing Digital - Google",
           text: "Certificação de principios básicos de marketing digital feito pela Google como duração de 40 horas.",
           image: require("@/assets/certificados/certificado_google_garage.png"),
+          update: "08-12-2022",
+        },
+        {
+          id: 1.1,
+          title: "Space Apps Challenge - NASA",
+          text: "Certificado de participação no Space Apps Challenge, onde obtive a 1° colocação regional.",
+          image: require("@/assets/certificados/certificado_nasa_space_apps.png"),
           update: "08-12-2022",
         },
         {
