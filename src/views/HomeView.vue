@@ -5,6 +5,7 @@
     <tools-and-technologies />
     <projects-comp />
     <contact-comp />
+    <RepositoriesComp />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import HeaderComp from "../components/HeaderComp.vue";
 import AboutMeComp from "../components/AboutMeComp.vue";
 import ToolsAndTechnologies from "../components/ToolsAndTechnologies.vue";
 import ProjectsComp from "@/components/ProjectsComp.vue";
+import RepositoriesComp from "@/components/RepositoriesComp.vue";
 import ContactComp from "@/components/ContactComp.vue";
 
 export default {
@@ -22,6 +24,7 @@ export default {
     AboutMeComp,
     ToolsAndTechnologies,
     ProjectsComp,
+    RepositoriesComp,
     ContactComp,
   },
   data() {
@@ -37,5 +40,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
