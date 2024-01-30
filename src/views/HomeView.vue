@@ -4,8 +4,8 @@
     <about-me-comp />
     <tools-and-technologies />
     <projects-comp />
-    <contact-comp />
     <RepositoriesComp />
+    <contact-comp />
   </div>
 </template>
 

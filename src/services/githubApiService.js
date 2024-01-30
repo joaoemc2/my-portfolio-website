@@ -4,10 +4,19 @@ const githubApi = axios.create({
     baseURL: 'https://api.github.com',
 });
 
-export async function obterGithubRepositories() {
+export async function getGithubRepositories() {
     try {
         const resposta = await githubApi.get('/users/joaoemc2/repos');
-        console.log('Resposta:', resposta.data);
+        return resposta.data;
+    } catch (error) {
+        console.error('Erro:', error);
+        throw error;
+    }
+}
+
+export async function getGithubRepositorieLanguages(repo) {
+    try {
+        const resposta = await githubApi.get(`/repos/joaoemc2/${repo}/languages`);
         return resposta.data;
     } catch (error) {
         console.error('Erro:', error);
