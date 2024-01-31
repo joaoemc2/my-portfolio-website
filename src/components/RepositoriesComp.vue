@@ -39,7 +39,7 @@
           <p class="git-card-languages-source">*linhas de código</p>
           <div class="git-card-footer">
             <p class="git-card-date">
-              Última atualização: {{ converterData(item.pushed_at) }}
+              Última atualização: {{ convertDate(item.pushed_at) }}
             </p>
             <i class="bi bi-github"></i>
           </div>
@@ -82,7 +82,7 @@ export default {
     goToGithub(url) {
       window.open(url, "_blank");
     },
-    converterData(dataString) {
+    convertDate(dataString) {
       const data = new Date(dataString);
 
       const dia = String(data.getDate()).padStart(2, "0");
