@@ -3,7 +3,7 @@
     <header-comp />
     <about-me-comp />
     <tools-and-technologies />
-    <projects-comp />
+    <!-- <projects-comp /> -->
     <RepositoriesComp />
     <contact-comp />
   </div>
@@ -13,7 +13,7 @@
 import HeaderComp from "../components/HeaderComp.vue";
 import AboutMeComp from "../components/AboutMeComp.vue";
 import ToolsAndTechnologies from "../components/ToolsAndTechnologies.vue";
-import ProjectsComp from "@/components/ProjectsComp.vue";
+// import ProjectsComp from "@/components/ProjectsComp.vue";
 import RepositoriesComp from "@/components/RepositoriesComp.vue";
 import ContactComp from "@/components/ContactComp.vue";
 
@@ -23,7 +23,7 @@ export default {
     HeaderComp,
     AboutMeComp,
     ToolsAndTechnologies,
-    ProjectsComp,
+    // ProjectsComp,
     RepositoriesComp,
     ContactComp,
   },

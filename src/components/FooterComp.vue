@@ -45,14 +45,14 @@
             >Inicio</router-link
           >
         </div>
-        <div class="nav-link">
+        <!-- <div class="nav-link">
           <router-link
             aria-label="ir para projetos"
             class="router"
             to="/projetos"
             >Projetos</router-link
           >
-        </div>
+        </div> -->
         <div class="nav-link">
           <router-link
             aria-label="ir para certificados"
