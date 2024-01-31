@@ -5,7 +5,6 @@
       <h2 class="title">Repositórios</h2>
     </div>
     <p class="paragraph">Meus repositórios no GitHub.</p>
-    <div></div>
     <ul class="git-cards">
       <li
         v-for="(item, i) in reposGit"
