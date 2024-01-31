@@ -36,7 +36,7 @@
               </p>
             </li>
           </ul>
-          <p class="git-card-languages-source">*linhas de código</p>
+          <p class="git-card-languages-source">*Caracteres de código</p>
           <div class="git-card-footer">
             <p class="git-card-date">
               Última atualização: {{ convertDate(item.pushed_at) }}
@@ -147,7 +147,7 @@ export default {
   padding: 0;
 }
 .git-card {
-  max-width: 456px;
+  max-width: 480px;
   min-height: 184px;
   border-radius: 10px;
   background-color: #ecebf3;
