@@ -22,7 +22,7 @@
         ></a>
         <a
           class="bi bi-instagram"
-          href="https://www.instagram.com/joao.emc2/"
+          href="https://www.instagram.com/joao.tag/"
           target="_black"
           aria-label="visitar instagram"
         ></a>

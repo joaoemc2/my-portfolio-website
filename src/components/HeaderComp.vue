@@ -35,7 +35,7 @@
           ></a>
           <a
             class="bi bi-telegram"
-            href="https://t.me/joaoemc2"
+            href="https://t.me/joao.tag"
             target="_black"
             aria-label="contato no telegram"
           ></a>
