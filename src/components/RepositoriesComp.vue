@@ -1,52 +1,57 @@
 <template>
-  <div class="repositories-comp">
-    <div class="title-container">
-      <div class="line"></div>
-      <h2 class="title">Repositórios</h2>
-    </div>
-    <p class="paragraph">Meus repositórios no GitHub.</p>
-    <ul class="git-cards">
-      <li
-        v-for="(item, i) in reposGit"
-        :key="item.id"
-        :class="{ 'remove-card': item.name == 'joaoemc2' }"
-      >
-        <div
-          class="git-card"
-          @click="goToGithub(item.html_url)"
-          :style="{ borderBottomColor: obterCorPorStatus(item.language) }"
+  <section
+    class="main-container d-flex justify-content-center align-items-center"
+  >
+    <div class="repositories-comp">
+      <div class="title-container">
+        <div class="line"></div>
+        <h2 class="title">Repositórios</h2>
+      </div>
+      <p class="paragraph">Meus repositórios no GitHub.</p>
+      <ul class="git-cards">
+        <li
+          v-for="(item, i) in reposGit"
+          :key="item.id"
+          :class="{ 'remove-card': item.name == 'joaoemc2' }"
         >
-          <h5 class="git-card-title">{{ item.name }}</h5>
-          <p class="git-card-subtitle" :title="item.description">
-            {{ item.description }}
-          </p>
-          <ul class="git-card-languages">
-            <li
-              v-for="(value, language) in reposLanguages[i]"
-              :key="language"
-              class="git-card-language"
-            >
-              <div
-                class="git-card-language-circle"
-                :style="{ backgroundColor: obterCorPorStatus(language) }"
-              ></div>
-              <p class="git-card-language-name">
-                <strong class="git-card-language-value">{{ language }}: </strong
-                >{{ value }}
-              </p>
-            </li>
-          </ul>
-          <p class="git-card-languages-source">*Caracteres de código</p>
-          <div class="git-card-footer">
-            <p class="git-card-date">
-              Última atualização: {{ convertDate(item.pushed_at) }}
+          <div
+            class="git-card"
+            @click="goToGithub(item.html_url)"
+            :style="{ borderBottomColor: obterCorPorStatus(item.language) }"
+          >
+            <h5 class="git-card-title">{{ item.name }}</h5>
+            <p class="git-card-subtitle" :title="item.description">
+              {{ item.description }}
             </p>
-            <i class="bi bi-github"></i>
+            <ul class="git-card-languages">
+              <li
+                v-for="(value, language) in reposLanguages[i]"
+                :key="language"
+                class="git-card-language"
+              >
+                <div
+                  class="git-card-language-circle"
+                  :style="{ backgroundColor: obterCorPorStatus(language) }"
+                ></div>
+                <p class="git-card-language-name">
+                  <strong class="git-card-language-value"
+                    >{{ language }}: </strong
+                  >{{ value }}
+                </p>
+              </li>
+            </ul>
+            <p class="git-card-languages-source">*Caracteres de código</p>
+            <div class="git-card-footer">
+              <p class="git-card-date">
+                Última atualização: {{ convertDate(item.pushed_at) }}
+              </p>
+              <i class="bi bi-github"></i>
+            </div>
           </div>
-        </div>
-      </li>
-    </ul>
-  </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 </template>
 
 <script>
